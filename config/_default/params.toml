@@ -37,7 +37,7 @@ font_size = "L"
 #   For personal sites, choose "Person".
 #   For organizations and projects, choose from https://schema.org/Organization#subtypes
 #   E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
-site_type = "Project"
+site_type = "Organization"
 
 # Local business type (optional)
 # If you entered "LocalBusiness" above, choose the type of business from https://schema.org/LocalBusiness#subtypes
@@ -45,10 +45,10 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = ""
+org_name = "Hello, Comma"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "My book description."
+description = "Boldly going where many have already gone before."
 
 ############################
 ## Site Features
@@ -75,7 +75,7 @@ privacy_pack = false
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "", content_dir = "", repo_branch = "main", editable = {book = false}}
+edit_page = {repo_url = "https://github.com/Kashinoga/hello-comma-website", content_dir = "", repo_branch = "master", editable = {book = true}}
 
 # Show related content at the bottom of pages?
 show_related = {book = true}
@@ -96,23 +96,23 @@ twitter = ""
 
 # Date and time format (refer to https://wowchemy.com/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "Jan 2, 2006"
+date_format = "Mon, 02 January, 2006"
 #   Examples: "3:04 pm" or "15:04"
-time_format = "3:04 PM"
+time_format = "15:04"
 
 ############################
 ## Advanced
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
+main_menu = {align = "l", show_logo = false, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
 
 # Display next/previous section pager? (true/false)
-section_pager = false
-docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
+docs_section_pager = true # Display pager in Docs layout (e.g. tutorials)?
+section_pager = false 
 
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
@@ -126,91 +126,100 @@ abstract_length = 135
 
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_js  = []
+plugins_js = []
 
 # Breadcrumb navigation
 [breadcrumb]
-  page_types = {book = true}
+page_types = {book = true}
 
 ############################
 ## Comments
 ############################
 [comments]
-  # Comment provider:
-  #   0: Disabled
-  #   1: Disqus (https://disqus.com)
-  #   2: Commento (https://commento.io)
-  engine = 0
+# Comment provider:
+#   0: Disabled
+#   1: Disqus (https://disqus.com)
+#   2: Commento (https://commento.io)
+engine = 0
 
-  # Which page types are commentable?
-  commentable = {book = false}
+# Which page types are commentable?
+commentable = {book = false}
 
-  # Configuration of Disqus.
-  [comments.disqus]
-    shortname = ""  # Paste the shortname from your Disqus dashboard.
-    show_count = true  # Show comment count in page header? (true/false)
+# Configuration of Disqus.
+[comments.disqus]
+shortname = "" # Paste the shortname from your Disqus dashboard.
+show_count = true # Show comment count in page header? (true/false)
 
-  # Configuration of Commento.
-  [comments.commento]
-    # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
-    url = ""
+# Configuration of Commento.
+[comments.commento]
+# If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
+url = ""
 
 ############################
 ## Search
 ############################
 [search]
-  # Search provider:
-  #   0: No search engine
-  #   1: Academic (built-in)
-  #   2: Algolia (https://www.algolia.com)
-  engine = 1
+# Search provider:
+#   0: No search engine
+#   1: Academic (built-in)
+#   2: Algolia (https://www.algolia.com)
+engine = 1
 
-  # Configuration of Algolia search engine.
-  # Paste the values from your Algolia dashboard.
-  [search.algolia]
-    app_id = ""
-    api_key = ""
-    index_name = ""
-    show_logo = false
+# Configuration of Algolia search engine.
+# Paste the values from your Algolia dashboard.
+[search.algolia]
+api_key = ""
+app_id = ""
+index_name = ""
+show_logo = false
 
 ############################
 ## Maps
 ############################
 [map]
-  # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
-  # and choose a map provider below.
-  #
-  # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
-  #   https://developers.google.com/maps/documentation/javascript/get-api-key
-  # To use OpenStreetMap tiles, set `engine` to 2.
-  # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
-  #   https://www.mapbox.com/studio/account/tokens
-  #
-  # Map provider:
-  #   0: No map
-  #   1: Google Maps
-  #   2: OpenStreetMap (Mapnik)
-  #   3: OpenStreetMap (Mapbox)
-  engine = 0
-  api_key = ""
-  zoom = 15
+# To show your address on a map in the Contact widget, enter your latitude and longitude (above)
+# and choose a map provider below.
+#
+# To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
+#   https://developers.google.com/maps/documentation/javascript/get-api-key
+# To use OpenStreetMap tiles, set `engine` to 2.
+# To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
+#   https://www.mapbox.com/studio/account/tokens
+#
+# Map provider:
+#   0: No map
+#   1: Google Maps
+#   2: OpenStreetMap (Mapnik)
+#   3: OpenStreetMap (Mapbox)
+api_key = ""
+engine = 0
+zoom = 15
 
 ############################
 ## Marketing
 ############################
 [marketing]
-  google_analytics = ""
-  google_tag_manager = ""
+google_analytics = ""
+google_tag_manager = ""
 
 ############################
 ## Content Management System
 ############################
 [cms]
-  # See https://wowchemy.com/docs/install/
-  netlify_cms = true
+# See https://wowchemy.com/docs/install/
+netlify_cms = true
 
 ############################
 ## Icon Pack Extensions
 ############################
 [icon.pack]
-  ai = false  # Academicons icon pack https://jpswalsh.github.io/academicons/
+ai = false # Academicons icon pack https://jpswalsh.github.io/academicons/
+
+############################
+## Avatars
+############################
+[avatar]
+# An avatar is an image that appears next to a user's name.
+# An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
+# Get user avatars from Gravatar.com? (true/false)
+gravatar = true

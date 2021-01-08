@@ -1,0 +1,355 @@
+/* */
+/* */
+/* */
+/* Custom CSS for Wowchemy */
+/* */
+/* */
+/* */
+
+/* Global Variables */
+$global-border-radius: 0;
+$global-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, 0.1);
+$global-box-shadow-colored: 0 1px 1px 0 #f5df4d;
+$global-opacity: 0.5;
+$global-padding: 1rem;
+$global-transition-duration: 0s;
+
+$global-page-margin-top: 50px;
+
+/* Colors */
+$color-one: #939597;
+$color-two: #f5df4d;
+
+$color-three: #8b9198;
+
+$color-primary: #00ffcc;
+
+$color-blue: #00589b;
+$color-coral: #ff7f50;
+
+$color-grad-one: linear-gradient(
+  90deg,
+  rgba(255, 127, 80, 1) 0%,
+  rgba(0, 255, 204, 1) 100%
+);
+
+/* Colors Neutral */
+$color-white: #fffefe;
+$color-black: #111111;
+
+$color-cloudy: #b1ada8;
+$color-dark-gray: #a9a9a9;
+$color-desert-storm: #ede7e0;
+$color-gainsboro: #dcdcdc;
+
+/* Body */
+body {
+  background-color: $color-white;
+  color: $color-black;
+  margin-top: $global-page-margin-top;
+}
+
+body.dark {
+  color: $color-white;
+}
+
+/* Text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-black;
+}
+
+.section-heading p {
+  color: $color-black;
+}
+
+/* Links */
+
+a {
+  color: $color-blue;
+}
+
+.dark a {
+  color: $color-two;
+}
+
+a:hover {
+  color: $color-blue;
+  text-decoration: underline;
+}
+
+.dark a:hover {
+  color: $color-two !important;
+}
+
+.anchorjs-link {
+  color: $color-blue;
+  font-weight: unset;
+  transition-duration: $global-transition-duration;
+}
+
+.anchorjs-link:hover {
+  color: $color-blue;
+  text-decoration: underline;
+}
+
+/* Forms */
+.form-control:focus {
+  border-color: $color-two !important;
+  border-radius: $global-border-radius;
+  box-shadow: none;
+}
+
+/* Inputs */
+
+input.form-control::placeholder {
+  opacity: $global-opacity;
+}
+
+/* Tables */
+
+table {
+  display: table;
+  word-break: keep-all;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: $color-one;
+  /*border-bottom: 5px solid $color-grad-one;*/
+  box-shadow: $global-box-shadow;
+  height: $global-page-margin-top + 5;
+}
+
+.navbar-nav {
+  /* ensure same value as brand font-size */
+  line-height: 1rem;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    /* mobile */
+    background: $color-one;
+  }
+}
+
+.navbar-toggler {
+  color: $color-white !important;
+  transition-duration: $global-transition-duration;
+}
+
+.navbar-toggler:hover {
+  color: $color-desert-storm !important;
+}
+
+.navbar-brand {
+  color: $color-primary !important;
+  font-size: 1rem;
+}
+
+#logo {
+  display: inline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $color-black !important;
+  transition-duration: $global-transition-duration;
+}
+
+.dark .navbar .navbar-nav .nav-link {
+  color: $color-white !important;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: $color-two !important;
+  font-weight: unset !important;
+}
+
+.dark .navbar .navbar-nav .nav-link.active {
+  color: $color-two !important;
+  font-weight: unset !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $color-two !important;
+  font-weight: unset !important;
+}
+
+/* Breadcumb */
+.breadcrumb-item.active {
+  color: $color-one;
+}
+
+.dark .breadcrumb-item.active {
+  color: $color-one;
+}
+
+/* Search */
+.search-results > .container {
+  padding: 0;
+}
+
+.section-search-results {
+  padding: 1rem;
+  padding-top: 0rem;
+}
+
+.search-header {
+  padding: $global-padding;
+}
+
+#search-box #search-query {
+  border-radius: $global-border-radius;
+  font-size: 1rem;
+  height: calc(1.5em + 0.75rem + 2px);
+}
+
+/* Books */
+
+.docs-toggle {
+  color: $color-blue;
+}
+
+.docs-search .form-control {
+  border-radius: $global-border-radius;
+  text-overflow: ellipsis;
+}
+
+.docs-search .form-control:focus {
+  box-shadow: $global-box-shadow;
+}
+
+#docs-search-box-border {
+  border-top: 1px solid #eeeeee;
+}
+
+.docs-links {
+  padding-top: 0;
+}
+
+@media (min-width: 768px) {
+  .docs-sidebar {
+    top: 55px;
+  }
+}
+
+.docs-sidebar a {
+  color: $color-black;
+  transition-duration: $global-transition-duration;
+}
+
+.docs-sidebar .nav > li > a {
+  color: $color-one;
+}
+
+.dark .docs-sidebar .nav > li > a {
+  color: $color-one !important;
+}
+
+.docs-sidebar a:hover {
+  color: $color-black !important;
+}
+
+.dark .docs-sidebar a:hover {
+  color: $color-two !important;
+}
+
+.docs-sidebar .docs-toc-item.active a,
+.docs-sidebar .docs-toc-item a.active,
+.docs-sidebar .nav > .active:hover > a,
+.docs-sidebar .nav > .active > a {
+  color: $color-blue !important;
+  font-weight: unset;
+}
+
+.dark .docs-sidebar .docs-toc-item a.active,
+.dark .docs-sidebar .nav > .active > a {
+  color: $color-two !important;
+}
+
+.docs-toc-link {
+  font-weight: bold;
+}
+
+.dark .docs-toc-link {
+  color: $color-white;
+}
+
+.docs-toc-link.active {
+  font-weight: bold !important;
+}
+
+#TableOfContents li a {
+  color: $color-one !important;
+}
+
+#TableOfContents li a:hover {
+  text-decoration: underline;
+}
+
+#TableOfContents li a.active {
+  font-weight: unset;
+  text-decoration: underline;
+}
+
+#TableOfContents li a:hover,
+.toc-top li a:hover {
+  color: unset;
+}
+
+.toc-top li a {
+  color: $color-black;
+}
+
+.dark .toc-top li a {
+  color: $color-two;
+}
+
+.post-nav-item .meta-nav {
+  color: $color-one;
+}
+
+.dark .post-nav-item a {
+  color: $color-white;
+}
+
+.dark .docs .body-footer {
+  color: $color-one;
+}
+
+/* Footer */
+footer {
+  margin: 0;
+  padding: 1rem 0;
+}
+
+p.powered-by {
+  color: $color-black;
+}
+
+.dark p.powered-by {
+  color: $color-white;
+}
+
+.back-to-top {
+  color: $color-black;
+  text-align: center;
+  transition-duration: $global-transition-duration;
+}
+
+.back-to-top:focus {
+  color: $color-blue !important;
+}
+
+.dark .back-to-top {
+  color: $color-white;
+}
+
+.dark .back-to-top:focus,
+.dark .back-to-top:hover {
+  color: $color-two !important;
+}
