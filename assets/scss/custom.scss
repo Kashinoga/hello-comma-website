@@ -179,6 +179,25 @@ table {
   font-weight: unset !important;
 }
 
+/* Theme Selector */
+.navbar .dropdown-item-active {
+  color: $color-blue !important;
+}
+
+.navbar .dropdown-item:hover {
+  color: $color-blue !important;
+}
+
+.dropdown-item {
+  color: $color-black !important;
+  transition-duration: $global-transition-duration;
+}
+
+.dark .dropdown-item {
+  color: $color-white !important;
+  transition-duration: $global-transition-duration;
+}
+
 /* Breadcumb */
 .breadcrumb-item.active {
   color: $color-one;
@@ -214,6 +233,14 @@ table {
   color: $color-blue;
 }
 
+.dark .docs-toggle {
+  color: $color-two;
+}
+
+.dark .docs-toggle:hover {
+  color: $color-white;
+}
+
 .docs-search .form-control {
   border-radius: $global-border-radius;
   text-overflow: ellipsis;
@@ -242,6 +269,10 @@ table {
   transition-duration: $global-transition-duration;
 }
 
+.docs-sidebar a:hover {
+  color: $color-blue !important;
+}
+
 .docs-sidebar .nav > li > a {
   color: $color-one;
 }
@@ -250,8 +281,8 @@ table {
   color: $color-one !important;
 }
 
-.docs-sidebar a:hover {
-  color: $color-black !important;
+.dark .docs-sidebar .nav > li > a:hover {
+  color: $color-two !important;
 }
 
 .dark .docs-sidebar a:hover {
