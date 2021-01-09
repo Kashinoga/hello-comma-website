@@ -37,4 +37,7 @@ columns = "1"
 [design.spacing]
   # top, right, bottom, left
   padding = ["300px", "0", "300px", "0"]
+
+[advanced]
+  css_class = "home-hero"
 +++

@@ -1,30 +1,87 @@
-<!--<p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>-->
+# Overview
 
-# Book Template for [Wowchemy Website Builder](https://wowchemy.com)
+This is the home of the Hello, Comma website.
 
-The **Book Template** empowers you to create **product documentation**, **digital books**, **personal notes**, and **knowledge bases**.
+The website is built with [Hugo](https://gohugo.io/) and [Wowchemy](https://wowchemy.com/) theme. Hello, Comma was created by and is primarily developed by [Andrew Nguyen](https://hellocomma.net/author/andrew-nguyen/).
 
-[Check out the latest demo](https://book-starter.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+# Environment
 
-[**Wowchemy**](https://github.com/wowchemy/wowchemy-hugo-modules) makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs.
+Hello, Comma is primarily developed on the Windows Subsystem for Linux using Ubuntu on Windows. Visual Studio Code is the main editor and the website is hosted on Netlify.
 
-- 👉 [**Get Started**](https://wowchemy.com/docs/install/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+# Setup
 
-## Crowd-funded open-source software
+## Step 1: Install the Windows Subsystem for Linux
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+- Install the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
+## Step 2: Install Ubuntu on Windows
 
-<!--
-[![Screenshot]()](https://github.com/wowchemy/starter-book)
--->
+- Install [Ubuntu on Windows](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
 
-<!--
-[![](https://ga-beacon.appspot.com/UA-78646709-2/starter-book/readme?pixel)](https://github.com/igrigorik/ga-beacon)
--->
+## Step 3: Install Homebrew
+
+- In a Ubuntu terminal, install [Homebrew](https://docs.brew.sh/Homebrew-on-Linux)
+- If you run into errors, you may try either/or before installation:
+  - sudo apt update
+  - sudo apt-get install build-essential
+
+## Step 4: Install Hugo
+
+- In the Ubuntu terminal, install [Hugo](https://gohugo.io/getting-started/installing#linuxbrew-linux)
+
+## Step 5: Setup Git
+
+- Follow [these instructions](https://help.github.com/en/github/getting-started-with-github/set-up-git)
+- For command line access, you may need to [setup a personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
+
+## Step 6: Clone the project as the Owner, as a Collaborator, or as a Contributor
+
+### Owner/Collaborator:
+
+- In the Ubuntu terminal, setup your preferred project directory
+
+  - e.g.: ~/GitHub/
+
+- In the terminal, execute:
+
+  - git clone https://github.com/Kashinoga/hello-comma.git
+
+- Change directories to the root Hello, Comma directory:
+
+  - If you setup the example project directory above, execute:
+    - cd ~/GitHub/hello-comma
+
+- Initialize the Academic theme while in the project's root directory:
+  - git submodule update --init --recursive
+
+### Contributor:
+
+- Follow [these instructions](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- You may have to initialize the Academic theme while in the project's root directory:
+  - git submodule update --init --recursive
+
+## Step 7: Install an Editor
+
+- We recommend [Visual Studio Code](https://code.visualstudio.com/)
+
+## Step 8: Setup Quick Access in the Windows File Explorer
+
+- Pin the Ubuntu folder to Quick Access by navigating to this address in the File Explorer:
+  - \\\wsl\$\Ubuntu
+- This helps with managing files using the File Explorer in Windows
+
+# Collaboration and Contribution
+
+- Follow the [GitHub flow](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/github-flow) and [GitHub collaboration document](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests)
+
+# Discord
+
+- Join our [Discord](https://discord.gg/DQVJ9J2) for discussions and updates
+
+# Reference
+
+- [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+- [GitHub](https://github.com/Kashinoga/hello-comma-website)
+- [Hugo](https://gohugo.io/)
+- [Wowchemy](https://sourcethemes.com/wowchemy/)
+- [Markdown](https://www.markdownguide.org/cheat-sheet/)

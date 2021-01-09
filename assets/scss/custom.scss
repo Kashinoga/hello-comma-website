@@ -1,46 +1,32 @@
-/* */
-/* */
-/* */
+/* ### ### ### */
 /* Custom CSS for Wowchemy */
-/* */
-/* */
-/* */
+/* by Andrew Nguyen */
+/* ### ### ### */
 
 /* Global Variables */
 $global-border-radius: 0;
+
 $global-box-shadow: 0 1px 1px 0 rgba(50, 50, 50, 0.1);
 $global-box-shadow-colored: 0 1px 1px 0 #f5df4d;
+
 $global-opacity: 0.5;
+
 $global-padding: 1rem;
-$global-transition-duration: 0s;
 
 $global-page-margin-top: 50px;
 
+$global-transition-duration: 0s;
+
 /* Colors */
-$color-one: #939597;
-$color-two: #f5df4d;
+$color-one: #939597; // ultimate gray
+$color-two: #f5df4d; // illuminating
+$color-three: #363b48; // blue nights
 
-$color-three: #8b9198;
-
-$color-primary: #00ffcc;
-
-$color-blue: #00589b;
-$color-coral: #ff7f50;
-
-$color-grad-one: linear-gradient(
-  90deg,
-  rgba(255, 127, 80, 1) 0%,
-  rgba(0, 255, 204, 1) 100%
-);
-
-/* Colors Neutral */
+/* Colors Standard */
 $color-white: #fffefe;
+$color-white-two: #f0eee9;
 $color-black: #111111;
-
-$color-cloudy: #b1ada8;
-$color-dark-gray: #a9a9a9;
-$color-desert-storm: #ede7e0;
-$color-gainsboro: #dcdcdc;
+$color-blue: #00589b;
 
 /* Body */
 body {
@@ -50,6 +36,7 @@ body {
 }
 
 body.dark {
+  background: #363b48;
   color: $color-white;
 }
 
@@ -63,8 +50,12 @@ h6 {
   color: $color-black;
 }
 
-.section-heading p {
+.home-hero h1 {
   color: $color-black;
+}
+
+.section-heading p {
+  color: $color-three;
 }
 
 /* Links */
@@ -104,9 +95,19 @@ a:hover {
   box-shadow: none;
 }
 
+.dark .form-control {
+  background: $color-three;
+}
+
 /* Inputs */
 
 input.form-control::placeholder {
+  color: $color-black;
+  opacity: $global-opacity;
+}
+
+.dark input.form-control::placeholder {
+  color: $color-white;
   opacity: $global-opacity;
 }
 
@@ -120,9 +121,13 @@ table {
 /* Navigation Bar */
 .navbar {
   background: $color-one;
-  /*border-bottom: 5px solid $color-grad-one;*/
   box-shadow: $global-box-shadow;
   height: $global-page-margin-top + 5;
+}
+
+.dark .navbar {
+  background: $color-one;
+  box-shadow: none;
 }
 
 .navbar-nav {
@@ -143,12 +148,7 @@ table {
 }
 
 .navbar-toggler:hover {
-  color: $color-desert-storm !important;
-}
-
-.navbar-brand {
-  color: $color-primary !important;
-  font-size: 1rem;
+  color: $color-one !important;
 }
 
 #logo {
@@ -242,8 +242,13 @@ table {
 }
 
 .docs-search .form-control {
+  background: $color-white-two;
   border-radius: $global-border-radius;
   text-overflow: ellipsis;
+}
+
+.dark .docs-search .form-control {
+  background: $color-three;
 }
 
 .docs-search .form-control:focus {
@@ -289,6 +294,10 @@ table {
   color: $color-two !important;
 }
 
+.dark .docs-sidebar .nav > li:not(.active) > a {
+  background: $color-three;
+}
+
 .docs-sidebar .docs-toc-item.active a,
 .docs-sidebar .docs-toc-item a.active,
 .docs-sidebar .nav > .active:hover > a,
@@ -307,6 +316,7 @@ table {
 }
 
 .dark .docs-toc-link {
+  background: $color-three;
   color: $color-white;
 }
 
@@ -348,6 +358,7 @@ table {
   color: $color-white;
 }
 
+.docs .body-footer,
 .dark .docs .body-footer {
   color: $color-one;
 }
