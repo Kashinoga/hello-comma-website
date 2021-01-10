@@ -17,22 +17,22 @@ The following represents Hello, Comma and how each subdivision is organized.
 
 ## Groups
 
-Each group has a central focus and a set of interests. These are listed below, and in addition, any available group chats are indicated.
+Each group has a central focus and a set of interests.
 
 ### Colors
 
-| Group |         | Focus                      | Status          |
-| ----- | ------- | -------------------------- | --------------- |
-| 🌈    | Rainbow | Everything                 | Active          |
-| 🔴    | Red     | Video Games                | Active          |
-| 🟠    | Orange  | -                          | Suggest a topic |
-| 🟡    | Yellow  | Local Community and Safety | Active          |
-| 🟢    | Green   | Outdoor Recreation         | Active          |
-| 🔵    | Blue    | Tabletop Games             | Suspended       |
-| 🟣    | Indigo  | Academia                   | Pending         |
-| 🟣    | Violet  | Indoor Recreation          | Active          |
-| ⚫    | Black   | Research and Development   | Inactive        |
-| ⚪    | White   | Administration             | Inactive        |
+| Group |         | Topic                      | Status    |
+| ----- | ------- | -------------------------- | --------- |
+| 🌈    | Rainbow | Everything                 | Active    |
+| 🔴    | Red     | Video Games                | Active    |
+| 🟠    | Orange  | -                          | -         |
+| 🟡    | Yellow  | Local Community and Safety | Active    |
+| 🟢    | Green   | Outdoor Recreation         | Active    |
+| 🔵    | Blue    | Tabletop Games             | Suspended |
+| 🟣    | Indigo  | -                          | -         |
+| 🟣    | Violet  | Indoor Recreation          | Active    |
+| ⚫    | Black   | Research and Development   | Inactive  |
+| ⚪    | White   | -                          | -         |
 
 ### Chats
 
@@ -50,14 +50,15 @@ If you are a local friend, please let [Andrew Nguyen](/author/andrew-nguyen) kno
 | <i class="fab fa-facebook-messenger"></i> | Facebook Messenger |
 | <i class="fas fa-sms"></i>                | SMS                |
 
-| Group  | Chats                                                                                               |
-| ------ | --------------------------------------------------------------------------------------------------- |
-| Red    | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i>                            |
-| Orange | -                                                                                                   |
-| Yellow | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i> <i class="fas fa-sms"></i> |
-| Green  | <i class="fab fa-discord"></i>                                                                      |
-| Blue   | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i>                            |
-| Indigo | -                                                                                                   |
-| Violet | <i class="fab fa-discord"></i>                                                                      |
-| Black  | <i class="fab fa-discord"></i>                                                                      |
-| White  | <i class="fab fa-discord"></i> <i class="fas fa-sms"></i>                                           |
+| Group   | Chats                                                                                               |
+| ------- | --------------------------------------------------------------------------------------------------- |
+| Rainbow | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i>                            |
+| Red     | <i class="fab fa-discord"></i>                                                                      |
+| Orange  | -                                                                                                   |
+| Yellow  | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i> <i class="fas fa-sms"></i> |
+| Green   | <i class="fab fa-discord"></i>                                                                      |
+| Blue    | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i>                            |
+| Indigo  | -                                                                                                   |
+| Violet  | <i class="fab fa-discord"></i>                                                                      |
+| Black   | <i class="fab fa-discord"></i>                                                                      |
+| White   | -                                                                                                   |

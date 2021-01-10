@@ -9,11 +9,20 @@ Boldly going where many have gone before.
 
 ## Overview
 
-Hello, Comma is a local community for creating and sharing with friends. Whether this is done through a session of a Dungeons & Dragons roleplaying game, the lobby of a Rainbow Six Siege game, or a local meetup for a hobby such as archery or sewing: Hello, Comma seeks to build and encourage our local community.
+Hello, Comma is a local community for creating and sharing with friends. Whether this is done through a session of a Dungeons & Dragons roleplaying game, the lobby of a Rainbow Six Siege game, or a local meetup for a hobby -- such as archery or sewing -- Hello, Comma seeks to build and encourage our local community.
 
 ## A Short History
 
 Hello, Comma was created by [Andrew Nguyen](/author/andrew-nguyen) in 2017, but began as Ray of Gods in 2005 under different leadership.
+
+## A Listed Short History
+
+| Name          | Year |
+| ------------- | ---- |
+| Ray of Gods   | 2005 |
+| Athena Rising | 2006 |
+| Soul Eclipse  | 2008 |
+| Hello, Comma  | 2017 |
 
 ## Credits
 

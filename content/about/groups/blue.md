@@ -18,13 +18,18 @@ Please contact [Andrew Nguyen](/author/andrew-nguyen) for more information.
 
 ### Current
 
-| Game                 | Campaign          | Status           |
-| -------------------- | ----------------- | ---------------- |
-| In-house (Title TBD) | -                 | Work-in-progress |
-| Starfinder           | Splintered Worlds | Hiatus           |
+| Game       | Campaign                                       | Status   |
+| ---------- | ---------------------------------------------- | -------- |
+| Starfinder | King Arthur and the Knights of the Round Table | Planning |
+| Pathfinder | Agents of Edgewatch                            | Hiatus   |
+| Starfinder | Splintered Worlds                              | Hiatus   |
 
 ### Completed
 
-| Game | Campaign | Year |
-| ---- | -------- | ---- |
-
+| Game               | Campaign                | Year |
+| ------------------ | ----------------------- | ---- |
+| Dungeons & Dragons | Ghosts of Saltmarsh     | 2019 |
+| Dungeons & Dragons | Curse of Strahd         | 2017 |
+| Dungeons & Dragons | Lost Mine of Phandelver | 2016 |
+| Dungeons & Dragons | Adventurous             | 2017 |
+| Dungeons & Dragons | Lost Mine of Phandelver | 2009 |
