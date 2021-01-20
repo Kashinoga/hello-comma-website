@@ -23,7 +23,7 @@ $color-three: #363b48; // blue nights
 
 /* Colors Mono */
 $color-white: white;
-$color-white-two: #f0eee9;
+$color-white-two: #f1f1f1;
 
 $color-black: black;
 
@@ -69,10 +69,16 @@ h6 {
   color: $color-three;
 }
 
+/* Buttons */
+.wg-hero.dark .btn:hover {
+  color: $color-blue !important;
+}
+
 /* Links */
 
 a {
   color: $color-blue;
+  transition-duration: $global-transition-duration;
 }
 
 .dark a {
@@ -106,7 +112,7 @@ a:hover {
 
 .form-control:focus,
 .dark .form-control:focus {
-  border-color: $color-two !important;
+  border-color: $color-blue !important;
   border-radius: $global-border-radius;
   box-shadow: $global-box-shadow;
 }
@@ -119,6 +125,7 @@ a:hover {
 
 input.form-control::placeholder {
   color: $color-black;
+  content: "" !important;
   opacity: $global-opacity;
 }
 

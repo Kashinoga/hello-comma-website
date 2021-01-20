@@ -18,14 +18,16 @@ A majority of the information will be communicated through one of the [available
 
 The following describes what information each group chat receives.
 
-| Level     | Description                                                                              |
-| --------- | ---------------------------------------------------------------------------------------- |
-| Emergency | Critical information regarding situations that may involve life or death                 |
-| Warning   | Actionable information regarding situations that may require immediate attention         |
-| Watch     | Sensitive information regarding situations that may require a certain level of awareness |
-| Info      | General information that may not require any action, usually administrative              |
+| Level     | Description                                                                      |
+| --------- | -------------------------------------------------------------------------------- |
+| Emergency | Critical information regarding situations that may involve life or death         |
+| Warning   | Actionable information regarding situations that may require immediate attention |
+| Watch     | Sensitive information regarding situations that may require awareness            |
+| Info      | General information that may not require any action, usually administrative      |
 
-| Chat                                                                 | Level (up to) | Priority (low, medium, high) |
-| -------------------------------------------------------------------- | ------------- | ---------------------------- |
-| <i class="fab fa-discord"></i>                                       | Warning       | Medium                       |
-| <i class="fab fa-facebook-messenger"></i> <i class="fas fa-sms"></i> | Emergency     | High                         |
+| Chat                                      | App                | Level (up to) | Priority (low, medium, high) |
+| ----------------------------------------- | ------------------ | ------------- | ---------------------------- |
+| <i class="fas fa-signal"></i>             | Signal             | Emergency     | High                         |
+| <i class="fab fa-discord"></i>            | Discord            | Warning       | Medium                       |
+| <i class="fab fa-facebook-messenger"></i> | Facebook Messenger | Emergency     | High (Deprecated)            |
+| <i class="fas fa-sms"></i>                | SMS                | Inactive      | Inactive                     |
