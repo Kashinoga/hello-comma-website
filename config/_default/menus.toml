@@ -9,6 +9,11 @@ url = "/"
 weight = 1
 
 [[main]]
+name = "Knowledge Base"
+url = "/kb"
+weight = 2
+
+[[main]]
 name = "About"
 url = "/about"
 weight = 99

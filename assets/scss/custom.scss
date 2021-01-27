@@ -110,6 +110,7 @@ a:hover {
   border: $global-border;
 }
 
+.form-control:hover,
 .form-control:focus,
 .dark .form-control:focus {
   border-color: $color-blue !important;
@@ -436,6 +437,28 @@ ul.nav-icons li.nav-item a.nav-link:hover {
   border-top: $global-border;
 }
 
+.sidebar-search {
+  color: $color-black;
+}
+
+.sidebar-search .fa-search:hover {
+  box-shadow: $global-box-shadow;
+  color: $color-blue;
+}
+
+.sidebar-search-shortcut {
+  background: $color-white;
+  border: $global-border;
+  border-radius: $global-border-radius;
+  box-shadow: $global-box-shadow;
+  color: $color-black;
+}
+
+.sidebar-search-shortcut:hover {
+  background: $color-black;
+  color: $color-white;
+}
+
 .docs-links {
   padding-bottom: 0;
   padding-top: 0;
@@ -453,9 +476,11 @@ ul.nav-icons li.nav-item a.nav-link:hover {
   transition-duration: $global-transition-duration;
 }
 
-// .docs-sidebar a:hover {
-//   color: $color-blue !important;
-// }
+@media (min-width: 768px) {
+  .docs-sidebar a:hover {
+    color: $color-blue !important;
+  }
+}
 
 .docs-sidebar .nav > li > a {
   color: $color-one;
@@ -498,6 +523,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .docs-toc-link.active {
+  color: $color-blue !important;
   font-weight: bold !important;
 }
 
@@ -526,7 +552,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
   .docs-sidebar .nav > li > a:hover,
   .docs-sidebar .nav > .active > a,
   .docs-sidebar .nav > .active > a:hover {
-    background: $color-two;
+    background: $color-two !important;
     color: $color-black !important;
   }
 }
