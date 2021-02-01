@@ -69,6 +69,10 @@ h6 {
   color: $color-three;
 }
 
+.dark .section-heading p {
+  color: $color-three;
+}
+
 /* Buttons */
 .wg-hero.dark .btn:hover {
   color: $color-blue !important;
