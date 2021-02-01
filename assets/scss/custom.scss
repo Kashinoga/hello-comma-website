@@ -111,11 +111,16 @@ a:hover {
 }
 
 .form-control:hover,
-.form-control:focus,
-.dark .form-control:focus {
+.form-control:focus {
   border-color: $color-blue !important;
   border-radius: $global-border-radius;
   box-shadow: $global-box-shadow;
+}
+
+.dark .form-control:hover,
+.dark .form-control:focus {
+  border-color: $color-two !important;
+  box-shadow: none;
 }
 
 .dark .form-control {
@@ -379,14 +384,27 @@ ul.nav-icons li.nav-item a.nav-link:hover {
   background: $color-three;
 }
 
+#search-box::before {
+  color: $color-black;
+  opacity: 1;
+  overflow-x: unset;
+  top: 0.7rem;
+}
+
 #search-box #search-query {
   border-radius: $global-border-radius;
+  color: $color-black;
   font-size: 1rem;
   height: calc(1.5em + 0.75rem + 2px);
 }
 
 .dark #search-query {
-  background: $color-one;
+  background: $color-two;
+  color: $color-black;
+}
+
+.dark .search-modal {
+  background: $color-three;
 }
 
 /* Books */
@@ -426,7 +444,8 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .dark .docs-search .form-control {
-  background: $color-clay;
+  background: $color-two;
+  color: $color-black;
 }
 
 .docs-search .form-control:focus {
@@ -454,9 +473,19 @@ ul.nav-icons li.nav-item a.nav-link:hover {
   color: $color-black;
 }
 
+.dark .sidebar-search-shortcut {
+  background: $color-black;
+  color: $color-white;
+}
+
 .sidebar-search-shortcut:hover {
   background: $color-black;
   color: $color-white;
+}
+
+.dark .sidebar-search-shortcut:hover {
+  background: $color-white;
+  color: $color-black;
 }
 
 .docs-links {
