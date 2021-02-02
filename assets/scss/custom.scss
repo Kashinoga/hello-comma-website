@@ -39,7 +39,7 @@ body {
 }
 
 body.dark {
-  background: #363b48;
+  background: $color-black;
   color: $color-white;
 }
 
@@ -169,7 +169,7 @@ table {
 }
 
 .dark .navbar {
-  background: $color-three;
+  background: $color-black;
   border-bottom: $global-border;
   box-shadow: $global-box-shadow;
 }
@@ -302,12 +302,16 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 /* Theme Selector */
+.dark .dropdown-menu {
+  background: $color-white !important;
+}
+
 .navbar .dropdown-item-active {
   color: $color-blue !important;
 }
 
 .dark .navbar .dropdown-item-active {
-  color: $color-two !important;
+  color: $color-black !important;
 }
 
 .navbar .dropdown-item:hover {
@@ -315,7 +319,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .dark .navbar .dropdown-item:hover {
-  color: $color-two !important;
+  color: $color-black !important;
 }
 
 .dropdown-item {
@@ -325,7 +329,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .dark .dropdown-item {
-  color: $color-white !important;
+  color: $color-one !important;
   transition-duration: $global-transition-duration;
 }
 
@@ -499,7 +503,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .dark .docs-sidebar .nav > li:not(.active) > a {
-  background: $color-three;
+  background: $color-black;
 }
 
 .docs-sidebar .nav > .active:hover > a,
@@ -518,7 +522,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .dark .docs-toc-link {
-  background: $color-three;
+  background: $color-black;
   color: $color-white;
 }
 
