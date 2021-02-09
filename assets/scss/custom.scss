@@ -527,12 +527,22 @@ ul.nav-icons li.nav-item a.nav-link:hover {
   color: $color-one !important;
 }
 
-.dark .docs-sidebar .nav > li > a:hover {
-  color: $color-black !important;
+@media (min-width: 768px) {
+  .dark .docs-sidebar .nav > li > a:hover {
+    color: $color-two !important;
+  }
 }
 
-.dark .docs-sidebar a:hover {
-  color: $color-black !important;
+@media (min-width: 768px) {
+  .dark .docs-sidebar a:hover {
+    color: $color-two !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .dark .docs-sidebar a:hover {
+    color: $color-black !important;
+  }
 }
 
 .dark .docs-sidebar .nav > li:not(.active) > a {
@@ -545,9 +555,18 @@ ul.nav-icons li.nav-item a.nav-link:hover {
   font-weight: unset;
 }
 
-.dark .docs-sidebar .docs-toc-item a.active,
-.dark .docs-sidebar .nav > .active > a {
-  color: $color-black !important;
+@media (min-width: 768px) {
+  .dark .docs-sidebar .docs-toc-item a.active,
+  .dark .docs-sidebar .nav > .active > a {
+    color: $color-two !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .dark .docs-sidebar .docs-toc-item a.active,
+  .dark .docs-sidebar .nav > .active > a {
+    color: $color-black !important;
+  }
 }
 
 .docs-toc-link {
