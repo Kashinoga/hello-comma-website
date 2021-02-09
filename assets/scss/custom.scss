@@ -528,11 +528,11 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .dark .docs-sidebar .nav > li > a:hover {
-  color: $color-two !important;
+  color: $color-black !important;
 }
 
 .dark .docs-sidebar a:hover {
-  color: $color-two !important;
+  color: $color-black !important;
 }
 
 .dark .docs-sidebar .nav > li:not(.active) > a {
@@ -547,7 +547,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 
 .dark .docs-sidebar .docs-toc-item a.active,
 .dark .docs-sidebar .nav > .active > a {
-  color: $color-two !important;
+  color: $color-black !important;
 }
 
 .docs-toc-link {
