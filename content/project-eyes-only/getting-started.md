@@ -3,7 +3,7 @@ title: Getting Started
 type: book
 ---
 
-How to Play Project Heavy Frontier
+How to Play
 
 ---
 

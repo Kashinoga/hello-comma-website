@@ -1,5 +1,5 @@
 ---
-title: Project Heavy Frontier
+title: Project Eyes Only
 type: book
 ---
 
