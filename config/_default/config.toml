@@ -20,6 +20,9 @@ copyright = "&copy; {year}"
 ## Advanced options below ##
 ############################
 
+# Aliases from https://wowchemy.com/updates/v5.0.0-beta.2/
+disableAliases = true
+
 # Get last modified date for content from Git?
 enableGitInfo = true
 
@@ -43,7 +46,7 @@ categories = "/category/:slug/"
 tags = "/tag/:slug/"
 
 [outputs]
-home = ["HTML", "RSS", "JSON", "WebAppManifest"]
+home = ["HTML", "RSS", "JSON", "WebAppManifest", "headers", "redirects"]
 section = ["HTML", "RSS"]
 
 [mediaTypes."application/manifest+json"]
