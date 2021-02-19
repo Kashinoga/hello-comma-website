@@ -7,6 +7,10 @@ An in-house science-fantasy role-playing game. The hyphens are extra.
 
 ---
 
+{{% callout note %}}
+This project is a work in progress and is constantly changing.
+{{% /callout %}}
+
 ## Purpose
 
 To create and sandbox a role-playing game with interesting and uncommon ideas.
