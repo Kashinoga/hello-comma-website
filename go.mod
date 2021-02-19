@@ -2,4 +2,7 @@ module github.com/wowchemy/starter-book
 
 go 1.14
 
-require github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210126214637-64b7d5189bb3 // indirect
+require (
+	github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210217222139-68595a20aead // indirect
+	github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms v0.0.0-20210217222139-68595a20aead // indirect
+)
