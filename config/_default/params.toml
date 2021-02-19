@@ -158,6 +158,7 @@ url = ""
 ############################
 ## Search
 ############################
+[search]
 #   "": No search engine
 #   "wowchemy": Built-in search engine
 #   "algolia": Algolia (https://www.algolia.com)
