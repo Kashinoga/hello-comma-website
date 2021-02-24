@@ -8,7 +8,7 @@ An in-house science-fantasy role-playing game. The hyphens are extra.
 ---
 
 {{% callout note %}}
-This project is a work in progress and is constantly changing.
+This project is in early development and is constantly changing.
 {{% /callout %}}
 
 ## Purpose
@@ -25,11 +25,14 @@ Science fantasy.
 
 ## Inspirations
 
+The following are some of the works that lend over their creativity to this project.
+
 - Alita: Battle Angel
 - Arrival
 - Edge of Tomorrow
 - Horizon: Zero Dawn
 - Immortals Fenyx Rising
+- Lupin III
 - Mass Effect
 - Nier: Automata
 - Space Dandy
