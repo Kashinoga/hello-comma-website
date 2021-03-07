@@ -17,11 +17,13 @@ You will need these things before you can start playing.
 
 ## Order
 
-Unless otherwise stated, the ordering of anything in this project follows: most to least important, descending and from left-to-right.
+Unless otherwise stated, the ordering of anything in this project follows: most to least important, from left-to-right and descending.
 
 ## Keywords and Keyphrases
 
 Use these words and phrases as reference points for playing the game. The ordering here and elsewhere is based on general importance descending, unless stated otherwise.
+
+### General
 
 | Designation           | Description                                                      |
 | --------------------- | ---------------------------------------------------------------- |
@@ -31,10 +33,28 @@ Use these words and phrases as reference points for playing the game. The orderi
 | Group                 | The Game Master and the Players                                  |
 | Session               | A single meeting of the Group to play the game                   |
 | World                 | The setting played in by the Players and their Player Characters |
-| Conflict              | A disagreement between Players and the World                     |
-| Primary Tool          | The tool used to ultimately resolve Conflicts                    |
-| Playing Cards         | The Primary Tool                                                 |
 | Non-Player Characters | Characters controlled by the Game Master                         |
+
+### Conflicts
+
+| Designation | Description                                                  |
+| ----------- | ------------------------------------------------------------ |
+| Conflict    | A disagreement between Players and the World                 |
+| Turn Order  | The order by which Players will take their turns during play |
+| Mana        | The number of a Player's active Mana Cards                   |
+
+### Standard Deck
+
+| Designation                  | Description                                   |
+| ---------------------------- | --------------------------------------------- |
+| Primary Tool                 | The tool used to ultimately resolve Conflicts |
+| Playing Cards, Standard Deck | The Primary Tool                              |
+| Main Deck                    | A Player's primary deck of playing cards      |
+| Discard Deck                 | Expended cards from the Main Deck             |
+| Extra Deck                   | The Joker cards from the Standard Deck        |
+| Mana Cards                   | The number cards in the Standard Deck         |
+| Life Cards                   | The red face cards in the Standard Deck       |
+| Death Cards                  | The black face cards in the Standard Deck     |
 
 ## Basic Setup
 
@@ -55,7 +75,11 @@ A simplified gameplay loop is as follows.
 5. Use the tools provided by the game to resolve the conflicts
 6. Repeat these steps
 
-## Conflicts
+## Game Master Fiat
+
+The Game Master has the ability to define and override rules for the sake of allowing the game to proceed.
+
+## Conflict
 
 This section describes what a Conflicts are and how Players interact with them.
 
@@ -87,10 +111,17 @@ Players will use a standard deck of cards as their Primary Tool to resolve Confl
 - 52 total cards
   - 13 ranks of cards, with 4 of each card in each rank
     - 9 number cards: 2 through 10
-    - 4 face cards: jack, queen, king, and ace
-  - 4 suits: spades, clubs, diamonds, and hearts
-  - 2 colors: diamonds and hearts are in red, while spades and clubs are in black
-- Joker cards are not included in the deck unless otherwise stated
+    - 4 face cards: Jack, Queen, King, and Ace
+  - 4 suits: Spades, Clubs, Diamonds, and Hearts
+  - 2 colors: Diamonds and Hearts are in red, while Spades and Clubs are in black
+    - If red and black are not present, at least two colors in the deck must be designated as red and the other black
+  - Joker cards are not included in the deck unless otherwise stated
+
+#### Card Rank
+
+- Suits: Hearts, Diamonds, Clubs, Spades
+- Faces: Ace, King, Queen, Jack
+- Numbers: 10, 9, 8, 7, 6, 5, 4, 3, 2
 
 ### How to Resolve Conflicts
 
@@ -105,13 +136,76 @@ The following offers a high-level understanding of using the Primary Tool to res
 
 #### Conflict Encounter
 
-If an event would cause Players to make a decision, then a Conflict Encounter occurs. The Game Master then decides if the decision warrants a Conflict Engagement. The threshold for activating a Conflict Engagement is as follows.
+If an event would cause Players to make a decision, then a Conflict Encounter occurs. The Game Master then decides if the decision warrants a Conflict Engagement. The threshold for activating a Conflict Engagement based on the Conflict Encounter is suggested as follows.
 
-| Decision Level | Decision Type  | Description                                       | Examples                                     | Conflict Engagement |
-| -------------- | -------------- | ------------------------------------------------- | -------------------------------------------- | ------------------- |
-| 0              | Programmed     | Decisions that are repetitive or routine          | Picking up your toothbrush                   | No                  |
-| 1              | Non-Programmed | Decisions that occur as small exceptions          | Avoiding a small puddle                      | No                  |
-| 2              | Minor          | Decisions that require some effort to make        | Avoiding a large puddle in a narrow alleyway | Yes                 |
-| 3              | Major          | Decisions that require significant effort to make | Avoiding a sinkhole in a bus going 70 mph    | Yes                 |
+| Decision Level | Decision Type  | Description                                       | Example                                             | Conflict Engagement |
+| -------------- | -------------- | ------------------------------------------------- | --------------------------------------------------- | ------------------- |
+| 0              | Programmed     | Decisions that are repetitive or routine          | Deciding whether or not to wear clothes for the day | No                  |
+| 1              | Non-Programmed | Decisions that occur as small exceptions          | Deciding what kind of clothes to wear for the day   | No                  |
+| 2              | Minor          | Decisions that require effort to make             | Deciding what to wear for a party                   | Yes                 |
+| 3              | Major          | Decisions that require significant effort to make | Deciding what to wear for your wedding              | Yes                 |
 
 #### Conflict Engagement
+
+Once a threshold is met or exceeded during a Conflict Encounter, a Conflict Engagement occurs. This Engagement allows the Group to resolve the Conflict before proceeding with the Party's next action.
+
+Each Player in the Party will take turns in order to process the Conflict Encounter.
+
+The following describes how to resolve a Conflict Encounter.
+
+#### Steps
+
+Players will take turns in Turn Order, determined in Step 0, beginning at Step 1.
+
+0. Determination
+   1. If it is the first turn, determine Turn Order
+   2. Each Player draws 1 card from their Main Deck
+   3. The Player with the highest ranked card (by suit, face, then number) becomes the first player in Turn Order
+      - If a Player draws the 2 of Hearts, they then get to decide the Turn Order
+   4. Each Player draws 5 cards from their Main Deck
+1. Draw
+   - The Player must draw 1 card from their Main Deck
+2. Main
+
+   - The Player may perform any of the following actions
+
+   | Action          | Description                           |
+   | --------------- | ------------------------------------- |
+   | Mana Activation | Play Mana Cards                       |
+   | Skill Book      | Activate a Skill from your Skill Book |
+
+3. Engagement
+
+   1. The Player may perform the Engagement Phase actions
+
+4. Recovery
+   1. The Player may perform the Recovery Phase actions
+5. End
+   1. The Player may perform the End Phase actions
+
+#### Mana Activation
+
+A Mana Activation involves playing any number of Mana Cards from the Player's hand.
+
+Once per turn, the Player may perform a Normal Mana Activation
+
+- Play a Mana Card by exchanging Mana according to the following
+
+  | Mana Card   | Mana Requirement |
+  | ----------- | ---------------- |
+  | 2 through 4 | None             |
+  | 5 and 6     | 1                |
+  | 7 and 8     | 2                |
+  | 9 and 10    | 3                |
+
+The Player can perform any number of Special Mana Activations
+
+- Play Mana Cards according to any of the following combinations
+
+  | Mana            | Description                                                 | Examples                                           |
+  | --------------- | ----------------------------------------------------------- | -------------------------------------------------- |
+  | Pair            | Two of any matching number cards                            | 4, 4 or 7, 7                                       |
+  | Triple          | Three number cards of the same number                       | 2, 2, 2 or 6, 6, 6,                                |
+  | Four of a Kind  | Four number cards of the same number                        | 2, 2, 2, 2 or 3, 3, 3, 3                           |
+  | Sequence        | Three or more number cards in consecutive sequence          | 2, 3, and 4 or 5, 6, and 7                         |
+  | Double Sequence | Three or more pairs of number cards in consecutive sequence | 2, 2, 3, 3, and 4, 4 or 6, 6, 7, 7, 8, 8, and 9, 9 |
