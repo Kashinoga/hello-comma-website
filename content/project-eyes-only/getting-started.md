@@ -52,18 +52,18 @@ A simplified gameplay loop is as follows.
 2. The Players describe their actions
 3. The Game Master describes the consequences to the Players' actions
 4. Conflicts between the Players and the World will occur
-5. Use the tools provided by the game to solve the conflicts
+5. Use the tools provided by the game to resolve the conflicts
 6. Repeat these steps
 
-## Conflict
+## Conflicts
 
-This section describes what a Conflict is and how Players interact with it.
+This section describes what a Conflicts are and how Players interact with them.
 
-#### The Basics
+### The Basics
 
 A conflict is a disagreement between Players and the World. The World can include many entities that conflict with the Player, such as: another Player, Non-Player Characters, and the World's environment.
 
-#### Examples
+### Examples
 
 A conflict may occur between a Player and the following:
 
@@ -72,11 +72,11 @@ A conflict may occur between a Player and the following:
 - The environment
   - Monsters, terrain, and the climate and weather
 
-## Conflict Resolution
+### Conflict Resolution
 
 This section describes how to use the tools provided in order to resolve Conflicts.
 
-### Primary Tool
+#### Primary Tool
 
 This is the tool that Groups will use to ultimately determine the outcome of Conflicts.
 
@@ -90,7 +90,7 @@ Players will use a standard deck of cards as their Primary Tool to resolve Confl
     - 4 face cards: jack, queen, king, and ace
   - 4 suits: spades, clubs, diamonds, and hearts
   - 2 colors: diamonds and hearts are in red, while spades and clubs are in black
-  - Joker cards are not included in the deck unless otherwise stated
+- Joker cards are not included in the deck unless otherwise stated
 
 ### How to Resolve Conflicts
 
