@@ -12,11 +12,11 @@ Group Yellow focuses on locally crowd-sourced information pertaining to administ
 
 ## Communication
 
-A majority of the information will be communicated through one of the [available group chats](/about/groups/#chats) for this group.
+Alerts will be communicated through the [group chats](/about/groups/#group-chats).
 
 ## Priority
 
-The following describes what information each group chat receives.
+The following describes what information each group chat channel receives.
 
 | Level     | Description                                                                      |
 | --------- | -------------------------------------------------------------------------------- |
@@ -27,7 +27,7 @@ The following describes what information each group chat receives.
 
 | Chat                                      | App                | Level (up to) | Priority (low, medium, high) |
 | ----------------------------------------- | ------------------ | ------------- | ---------------------------- |
+| <i class="fab fa-discord"></i>            | Discord            | Warning       | Highest                      |
+| <i class="fab fa-facebook-messenger"></i> | Facebook Messenger | Emergency     | Medium (Deprecated)          |
 | <i class="fas fa-signal"></i>             | Signal             | Emergency     | High                         |
-| <i class="fab fa-discord"></i>            | Discord            | Warning       | Medium                       |
-| <i class="fab fa-facebook-messenger"></i> | Facebook Messenger | Emergency     | High (Deprecated)            |
 | <i class="fas fa-sms"></i>                | SMS                | Inactive      | Inactive                     |

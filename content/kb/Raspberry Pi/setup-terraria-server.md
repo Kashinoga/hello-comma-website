@@ -5,7 +5,7 @@ type: book
 
 ## Overview
 
-This describes how to setup a Terraria Server on a Raspberry Pi.
+How to setup a Terraria Server on a Raspberry Pi.
 
 ## Requirements
 

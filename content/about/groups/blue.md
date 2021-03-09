@@ -18,11 +18,11 @@ Please contact [Andrew Nguyen](/author/andrew-nguyen) for more information.
 
 ### Current
 
-| Game       | Campaign                                       | Status   |
-| ---------- | ---------------------------------------------- | -------- |
-| Starfinder | King Arthur and the Knights of the Round Table | Planning |
-| Pathfinder | Agents of Edgewatch                            | Hiatus   |
-| Starfinder | Splintered Worlds                              | Hiatus   |
+| Game       | Campaign            | Status    |
+| ---------- | ------------------- | --------- |
+| Eyes Only  | -                   | Planning  |
+| Pathfinder | Agents of Edgewatch | Postponed |
+| Starfinder | Splintered Worlds   | Postponed |
 
 ### Completed
 

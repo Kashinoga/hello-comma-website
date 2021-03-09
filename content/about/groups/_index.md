@@ -5,11 +5,11 @@ type: book
 
 ## Overview
 
-Hello, Comma is subdivided into smaller sections, each with a particular focus and goal. Sections may overlap in interests that ultimately represents Hello, Comma.
+Hello, Comma is subdivided into smaller groups, each with a particular topic.
 
 ## Organization
 
-The following represents Hello, Comma and how each subdivision is organized.
+The following represents how Hello, Comma is organized.
 
 - Hello, Comma
   - Groups
@@ -17,69 +17,61 @@ The following represents Hello, Comma and how each subdivision is organized.
 
 ## Groups
 
-Each group has a central focus and a set of interests.
+Each group has a central focus and a set of interests, known as a topic.
 
-### Colors
+| Group | Name    | Topic              |
+| ----- | ------- | ------------------ |
+| 🌈    | Rainbow | Everything         |
+| ❤️    | Red     | Video Games        |
+| 🧡    | Orange  | Local              |
+| 💛    | Yellow  | Safety             |
+| 💚    | Green   | Outdoor Recreation |
+| 💙    | Blue    | Tabletop Games     |
+| 💜    | Indigo  | Services           |
+| 💜    | Violet  | Indoor Recreation  |
+| ✨    | Prism   | Nothing            |
 
-| Group |         | Topic                    | Status            |
-| ----- | ------- | ------------------------ | ----------------- |
-| 🌈    | Rainbow | Everything               | Active            |
-| 🔴    | Red     | Video Games              | Under Development |
-| 🟠    | Orange  | -                        | -                 |
-| 🟡    | Yellow  | Local Safety             | Active            |
-| 🟢    | Green   | Outdoor Hobbies          | Suspended         |
-| 🔵    | Blue    | Tabletop Games           | Suspended         |
-| 🟣    | Indigo  | Local Community          | Under Development |
-| 🟣    | Violet  | Indoor Hobbies           | Under Development |
-| ⚫    | Black   | Research and Development | Under Development |
-| ⚪    | White   | Administration           | Under Development |
+#### Group Chats
 
-### Group Chats
+Each group has a group chat. To join a group chat, please contact [Andrew Nguyen](/author/andrew-nguyen or visit our [Discord](/invite/discord).
 
-To join a group chat, please contact [Andrew Nguyen](/author/andrew-nguyen).
+#### Group Chat Apps
 
-### Apps
-
-Our group chats are available on these apps.
+Our group chats are available on the following platforms.
 
 | Icon                                      | Name               | Priority | Status     |
 | ----------------------------------------- | ------------------ | -------- | ---------- |
-| <i class="fas fa-signal"></i>             | Signal             | High     | Active     |
-| <i class="fab fa-discord"></i>            | Discord            | High     | Active     |
+| <i class="fab fa-discord"></i>            | Discord            | Highest  | Active     |
 | <i class="fab fa-facebook-messenger"></i> | Facebook Messenger | High     | Deprecated |
+| <i class="fas fa-signal"></i>             | Signal             | Medium   | Active     |
 | <i class="fas fa-sms"></i>                | SMS                | Low      | Inactive   |
-
-#### Signal
-
-Our Signal group chats are invite only.
 
 #### Discord
 
-Our Discord server -- open to everyone -- provides private and public chats where no real names are required. You can use the username of your dreams! Like "Paul Rudd Budd" or "ChessmasterHarmon48".
-
-To join our Discord, please visit the following invite: [Discord Invite](/invite/discord)
-
-If you are a local friend, please let [Andrew Nguyen](/author/andrew-nguyen) know your username so that he may grant you the appropriate roles to view the private, local chats.
+Our primary app, Discord -- open to everyone -- provides private and public chats where no real names are required. You can use the username of your dreams! Like "Paul Rudd Budd" or "ChessmasterHarmon48".
 
 #### Facebook Messenger
 
-Once our flagship app of choice, we have deprecated Messenger and are working to move our group chats over to Signal and Discord.
+We have deprecated Messenger and are working to move our group chats over to Discord and Signal.
+
+#### Signal
+
+Our Signal group chats are private and invite only.
 
 #### SMS
 
-While inactive, we have dorment SMS group chats as backups.
+SMS is our backup communication channel.
 
 #### Group App Availability
 
-| Group   | Chats                                                                                                                             |
-| ------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Rainbow | <i class="fas fa-signal"></i> <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i>                            |
-| Red     | <i class="fab fa-discord"></i>                                                                                                    |
-| Orange  | -                                                                                                                                 |
-| Yellow  | <i class="fas fa-signal"></i> <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i> <i class="fas fa-sms"></i> |
-| Green   | <i class="fab fa-discord"></i>                                                                                                    |
-| Blue    | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i>                                                          |
-| Indigo  | <i class="fab fa-discord"></i>                                                                                                    |
-| Violet  | <i class="fab fa-discord"></i>                                                                                                    |
-| Black   | <i class="fab fa-discord"></i>                                                                                                    |
-| White   | <i class="fab fa-discord"></i>                                                                                                    |
+| Group   | Chats                                                                                                                              |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Rainbow | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i> <i class="fas fa-signal"></i>                             |
+| Red     | <i class="fab fa-discord"></i>                                                                                                     |
+| Orange  | <i class="fab fa-discord"></i>                                                                                                     |
+| Yellow  | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"> </i> <i class="fas fa-signal"></i> <i class="fas fa-sms"></i> |
+| Green   | <i class="fab fa-discord"></i>                                                                                                     |
+| Blue    | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i>                                                           |
+| Indigo  | <i class="fab fa-discord"></i>                                                                                                     |
+| Violet  | <i class="fab fa-discord"></i>                                                                                                     |
+| Prism   | <i class="fab fa-discord"></i>                                                                                                     |
