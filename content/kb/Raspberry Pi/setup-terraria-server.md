@@ -10,7 +10,7 @@ How to setup a Terraria Server on a Raspberry Pi.
 ## Requirements
 
 - A Raspberry Pi
-  - This guide was written using a Raspberry Pi 4 Model B 4/8GB
+  - This guide was written using a Raspberry Pi 4 Model B 4GB
   - Other models may have varying performance, or be unable to support Terraria at all
 - TShock for Terraria
 - Familiarity with the command line
@@ -74,3 +74,5 @@ How to setup a Terraria Server on a Raspberry Pi.
      `@reboot /home/pi/Downloads/terraria/startTerraria.sh`
 
    - Save and quit
+
+     `:wq`

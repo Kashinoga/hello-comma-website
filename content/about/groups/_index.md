@@ -33,7 +33,7 @@ Each group has a central focus and a set of interests, known as a topic.
 
 #### Group Chats
 
-Each group has a group chat. To join a group chat, please contact [Andrew Nguyen](/author/andrew-nguyen or visit our [Discord](/invite/discord).
+Each group has a group chat. To join a group chat, please contact [Andrew Nguyen](/author/andrew-nguyen) or visit our [Discord](/invite/discord).
 
 #### Group Chat Apps
 
