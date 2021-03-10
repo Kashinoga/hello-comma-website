@@ -64,14 +64,14 @@ SMS is our backup communication channel.
 
 #### Group App Availability
 
-| Group   | Chats                                                                                                                              |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Rainbow | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i> <i class="fas fa-signal"></i>                             |
-| Red     | <i class="fab fa-discord"></i>                                                                                                     |
-| Orange  | <i class="fab fa-discord"></i>                                                                                                     |
-| Yellow  | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"> </i> <i class="fas fa-signal"></i> <i class="fas fa-sms"></i> |
-| Green   | <i class="fab fa-discord"></i>                                                                                                     |
-| Blue    | <i class="fab fa-discord"></i> <i class="fab fa-facebook-messenger"></i>                                                           |
-| Indigo  | <i class="fab fa-discord"></i>                                                                                                     |
-| Violet  | <i class="fab fa-discord"></i>                                                                                                     |
-| Prism   | <i class="fab fa-discord"></i>                                                                                                     |
+| Group   | Discord                            | Facebook Messenger                        | Signal                        | SMS                             |
+| ------- | ---------------------------------- | ----------------------------------------- | ----------------------------- | ------------------------------- |
+| Rainbow | <i class="fab fa-discord"></i>     | <i class="fab fa-facebook-messenger"></i> | <i class="fas fa-signal"></i> |                                 |
+| Red     | <i class="fab fa-discord"></i>     |                                           |                               |                                 |
+| Orange  | <i class="fab fa-discord"></i>     |                                           |                               |                                 |
+| Yellow  | <i class="fab fa-discord"></i></i> | <i class="fab fa-facebook-messenger">     | <i class="fas fa-signal">     | </i> <i class="fas fa-sms"></i> |
+| Green   | <i class="fab fa-discord"></i>     |                                           |                               |                                 |
+| Blue    | <i class="fab fa-discord"></i>     | <i class="fab fa-facebook-messenger"></i> |                               |                                 |
+| Indigo  | <i class="fab fa-discord"></i>     |                                           |                               |                                 |
+| Violet  | <i class="fab fa-discord"></i>     |                                           |                               |                                 |
+| Prism   | <i class="fab fa-discord"></i>     |                                           |                               |                                 |
