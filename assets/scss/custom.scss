@@ -17,7 +17,7 @@ $global-page-margin-top: 50px;
 $global-transition-duration: 0.1s;
 
 /* Colors Accent */
-$color-one: gray; // ultimate gray
+$color-one: gray;
 $color-two: #f5df4d; // illuminating
 $color-three: #363b48; // blue nights
 
@@ -66,14 +66,26 @@ h6 {
 }
 
 .section-heading p {
-  color: $color-white;
+  color: $color-one;
 }
 
 .dark .section-heading p {
   color: $color-white;
 }
 
+.text-muted {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.dark .text-muted {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
 /* Buttons */
+.wg-hero.dark .btn {
+  color: $color-black;
+}
+
 .wg-hero.dark .btn:hover {
   color: $color-blue !important;
 }

@@ -5,7 +5,7 @@ type: book
 
 ## Overview
 
-This describes how to rename the master branch in Git.
+How to rename the master branch in Git.
 
 ## Requirements
 

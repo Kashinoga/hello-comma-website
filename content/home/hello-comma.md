@@ -18,7 +18,7 @@ columns = "1"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  color = "#000000"
+  color = "#fff"
   
   # Background gradient.
   # gradient_start = "#4bb4e3"
@@ -32,7 +32,7 @@ columns = "1"
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 [design.spacing]
   # top, right, bottom, left
