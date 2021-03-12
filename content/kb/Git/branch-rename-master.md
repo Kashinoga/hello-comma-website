@@ -37,7 +37,7 @@ In this example, we will rename "master" to "main".
 
     `$ git push origin --delete master`
 
-    - If you encounter a similar error message:
+    - If you encounter a similar error message
       ```
       To https://github.com/example/example.git
       ! [remote rejected]   master (refusing to delete the current branch: refs/heads/master)

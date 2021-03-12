@@ -28,7 +28,7 @@ How to setup a Terraria Server on a Raspberry Pi.
 
 4. Install mono: https://www.mono-project.com/download/stable/#download-lin-raspbian
 5. Download and extract TShock on the Pi
-   - Visit https://github.com/Pryaxis/TShock and download the official release (recommended over the experimental release)
+   - Visit: https://github.com/Pryaxis/TShock and download the official release (recommended over the experimental release)
    - We recommend extracting to an easily manageable directory like /opt/tshock
 6. Perform these setup steps based on your environment: https://tshock.readme.io/docs/getting-started
    - In this case, following Linux specific remarks
