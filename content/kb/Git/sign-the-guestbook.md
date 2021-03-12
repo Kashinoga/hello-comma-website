@@ -138,3 +138,11 @@ Learn the basics of the command line, Git, and version control by signing the [G
     upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
     upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
     ```
+
+24. In your text editor, navigate to the project folder and open it: `~/GitHub/hello-comma-website/`
+25. Navigate to the following directory: `hello-comma-website/content/about/guestbook`
+26. Open up the following file: `guestbook.md`
+27. You can ignore most of the file for now, focusing on the list of names towards the bottom of the file
+28. Add your name as a new line
+29. Save the file
+30. In the terminal: type `git status`
