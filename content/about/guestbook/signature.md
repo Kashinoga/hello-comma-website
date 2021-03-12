@@ -12,9 +12,9 @@ design:
   columns: "2"
   spacing:
     padding:
+      - 2rem
+      - 0
       - 1rem
-      - 0
-      - 0
       - 0
 ---
 
