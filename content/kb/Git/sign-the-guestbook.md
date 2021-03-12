@@ -76,18 +76,24 @@ Learn the basics of the command line, Git, and version control by signing the [G
         ```
    2. Type: `ls`, you should see: `total 0`, indicating that the directory is empty
 
-8. Go to: https://github.com/, create an account, and login
-9. While on GitHub: go to Settings > Emails > Add email address, and setup your email
+8. Create a GitHub account
+   - Go to: https://github.com/, create an account, and login
+9. Set your GitHub email
+   - While on GitHub: go to Settings > Emails > Add email address, and setup your email
 10. Verify your email address
 11. In "Primary email address," select the email you just verified
 12. Select the option to "Keep my email address private," which will assign you a GitHub email: copy this email
-13. Prepare, paste, and enter the following
+13. Set your global Git username
+
+    - Prepare, paste, and enter the following
 
     `git config user.name "USERNAME"`
 
     - `USERNAME` can be anything, though it might help to set it as your GitHub username
 
-14. In the terminal: prepare (replace `YOUR_GITHUB_EMAIL`), paste, and enter the following
+14. Set your global Git email
+
+    - In the terminal: prepare (replace `YOUR_GITHUB_EMAIL`), paste, and enter the following
 
     `git config --global user.email "YOUR_GITHUB_EMAIL@github.com"`
 
@@ -121,23 +127,28 @@ Learn the basics of the command line, Git, and version control by signing the [G
     Resolving deltas: 100% (156/156), done.
     ```
     - This creates a new directory called `hello-comma-website` in your `GitHub` directory
-21. `cd` into the `hello-comma-website` directory
-22. In the terminal: copy, paste, and enter the following
+21. Change to the `hello-comma-website` directory
+    - Type: `cd hello-comma-website`
+22. Add an `upstream` repository
 
-    `git remote add upstream https://github.com/Kashinoga/hello-comma-website.git`
+    - In the terminal: copy, paste, and enter the following
 
-23. Type: `git remote -v`
+      `git remote add upstream https://github.com/Kashinoga/hello-comma-website.git`
 
     - This adds a new `upstream` repository, which points to the original repository
     - This allows you to sync your forked repository with the original one
 
-    ```
-    $ git remote -v
-    origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-    origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
-    upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
-    upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
-    ```
+23. Check the repository's upstream repositories
+
+    - Type: `git remote -v`
+
+      ```
+      $ git remote -v
+      origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+      origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+      upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+      upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+      ```
 
 24. In your text editor, navigate to the project folder and open it: `~/GitHub/hello-comma-website/`
 25. Navigate to the following directory: `hello-comma-website/content/about/guestbook`
@@ -145,33 +156,51 @@ Learn the basics of the command line, Git, and version control by signing the [G
 27. You can ignore most of the file for now, focusing on the list of names towards the bottom of the file
 28. Add your name as a new line
 29. Save the file
-30. In the terminal: type `git status`
+30. Get the status of your local repository
 
-    ```
-    kashinoga@Zarya:~/github/hello-comma-website$ git status
-    On branch main
-    Your branch is up to date with 'origin/main'.
+    - In the terminal: type `git status`
 
-    Changes not staged for commit:
-    (use "git add <file>..." to update what will be committed)
-    (use "git restore <file>..." to discard changes in working directory)
-            modified:   content/about/guestbook/guestbook.md
+      ```
+      kashinoga@Zarya:~/github/hello-comma-website$ git status
+      On branch main
+      Your branch is up to date with 'origin/main'.
 
-    no changes added to commit (use "git add" and/or "git commit -a")
-    ```
+      Changes not staged for commit:
+      (use "git add <file>..." to update what will be committed)
+      (use "git restore <file>..." to discard changes in working directory)
+              modified:   content/about/guestbook/guestbook.md
 
-31. Type: `git add .`
+      no changes added to commit (use "git add" and/or "git commit -a")
+      ```
+
+31. Stage your changes
+    - Type: `git add .`
     - This adds all items listed under: `Changes not staged for commit:`
-32. Type: `git status`
+32. Check the status again
 
-    ```
-    kashinoga@Zarya:~/github/hello-comma-website$ git status
-    On branch main
-    Your branch is up to date with 'origin/main'.
+    - Type: `git status`
 
-    Changes to be committed:
-        (use "git restore --staged <file>..." to unstage)
-            modified:   content/kb/Git/guestbook.md
-    ```
+      ```
+      kashinoga@Zarya:~/github/hello-comma-website$ git status
+      On branch main
+      Your branch is up to date with 'origin/main'.
 
-33. Type: `git commit -m "YOUR_MESSAGE HERE"`
+      Changes to be committed:
+          (use "git restore --staged <file>..." to unstage)
+              modified:   content/kb/Git/guestbook.md
+      ```
+
+33. Track your change by adding a message to it
+
+    - Type: `git commit -m "YOUR_MESSAGE HERE"`
+
+      ```
+      kashinoga@Zarya:~/github/hello-comma-website$ git commit -m "Git commit demo"
+      [main c84117b] Git commit demo
+      1 file changed, 29 insertions(+)
+      ```
+
+    - Type: `git log -1` to show the last commit message
+
+34. Push your changes to your remote repository
+    - Type: `git push origin`
