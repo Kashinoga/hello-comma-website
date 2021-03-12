@@ -146,3 +146,32 @@ Learn the basics of the command line, Git, and version control by signing the [G
 28. Add your name as a new line
 29. Save the file
 30. In the terminal: type `git status`
+
+    ```
+    kashinoga@Zarya:~/github/hello-comma-website$ git status
+    On branch main
+    Your branch is up to date with 'origin/main'.
+
+    Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+            modified:   content/about/guestbook/guestbook.md
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+    ```
+
+31. Type: `git add .`
+    - This adds all items listed under: `Changes not staged for commit:`
+32. Type: `git status`
+
+    ```
+    kashinoga@Zarya:~/github/hello-comma-website$ git status
+    On branch main
+    Your branch is up to date with 'origin/main'.
+
+    Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+            modified:   content/kb/Git/guestbook.md
+    ```
+
+33. Type: `git commit -m "YOUR_MESSAGE HERE"`
