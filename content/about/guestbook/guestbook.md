@@ -13,3 +13,4 @@ design:
 - Andrew Nguyen
 - Kashinoga
 - Stevie Traveler
+- Elizabeth "ChessMaster48" Harmon: "Let's play."
