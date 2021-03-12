@@ -257,7 +257,8 @@ Learn the basics of the command line, Git, and version control by signing the [G
        7ce3c02..541ec43  main -> main
        ```
        - This saves your changes remotely
-27. Create a `pull request`
+27. Check your changes on GitHub
+28. Create a `pull request`
     1. On GitHub, navigate to your project directory
     2. Click on `Pull request`
     3. The default branches displayed should be correct to allow you to request to merge your changes to the original repository
@@ -267,6 +268,5 @@ Learn the basics of the command line, Git, and version control by signing the [G
        - `compare: main`
     4. Enter a title and description for your pull request
     5. Use the `Create Pull Request` button to submit or save a draft
-28. That's it! We will review your pull request and then accept it as applicable.
-29. Treat yourself!
-30. Thirty is a nice number.
+29. That's it! We will review your pull request and then accept it as applicable.
+30. Treat yourself!
