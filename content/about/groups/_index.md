@@ -19,17 +19,17 @@ The following represents how Hello, Comma is organized.
 
 Each group has a central focus and a set of interests, known as a topic.
 
-| Group | Name    | Topic              |
-| ----- | ------- | ------------------ |
-| 🌈    | Rainbow | Everything         |
-| ❤️    | Red     | Video Games        |
-| 🧡    | Orange  | Local              |
-| 💛    | Yellow  | Safety             |
-| 💚    | Green   | Outdoor Recreation |
-| 💙    | Blue    | Tabletop Games     |
-| 💜    | Indigo  | Services           |
-| 💜    | Violet  | Indoor Recreation  |
-| ✨    | Prism   | Nothing            |
+| Group | Name    | Topic         |
+| ----- | ------- | ------------- |
+| 🌈    | Rainbow | Everything    |
+| ❤️    | Red     | Entertainment |
+| 🧡    | Orange  | Recreation    |
+| 💛    | Yellow  | Safety        |
+| 💚    | Green   | Local         |
+| 💙    | Blue    | Gaming        |
+| 💜    | Indigo  | This and That |
+| 💜    | Violet  | Clubs         |
+| ✨    | Prism   | Nothing       |
 
 #### Group Chats
 
