@@ -4,11 +4,9 @@ type: book
 weight: 3
 ---
 
-Local Safety
-
 ## Overview
 
-Group Yellow focuses on locally crowd-sourced information pertaining to administrative and governmental alerts, community safety, and the weather.
+Group Yellow focuses on crowd-sourced information pertaining to administrative and governmental alerts, community safety, and the weather.
 
 ## Communication
 

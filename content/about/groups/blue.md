@@ -4,11 +4,9 @@ type: book
 weight: 5
 ---
 
-Tabletop Games
-
 ## Overview
 
-Group Blue is all about tabletop games.
+Group Blue is all about games.
 
 ## Participation
 
