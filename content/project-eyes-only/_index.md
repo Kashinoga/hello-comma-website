@@ -3,7 +3,7 @@ title: Project Eyes Only
 type: book
 ---
 
-An in-house science-fantasy role-playing game. The hyphens are extra.
+An in-house tabletop role-playing game.
 
 ---
 
@@ -11,21 +11,13 @@ An in-house science-fantasy role-playing game. The hyphens are extra.
 This project is in early development and is constantly changing.
 {{% /callout %}}
 
-## Purpose
+## Goals
 
-To create and sandbox a role-playing game with interesting and uncommon ideas.
-
-## Focus
-
-To provide an intuitive package of tools that allows the players to build out resolutions for conflicts between themselves and the environment.
-
-## Setting
-
-Science fantasy.
+1. Combat that does not drag on
+2. No distinction between combat and social encounters
+3. Let players play outside of sessions
 
 ## Inspirations
-
-The following are some of the works that lend over their creativity to this project.
 
 - Alita: Battle Angel
 - Arrival
@@ -35,10 +27,7 @@ The following are some of the works that lend over their creativity to this proj
 - Lupin III
 - Mass Effect
 - Nier: Automata
+- RuneScape
 - Space Dandy
 - Star Trek
 - Yu-Gi-Oh! The Abridged Series
-
-## Endgame
-
-To provide a great option to play at the table during Friday nights.

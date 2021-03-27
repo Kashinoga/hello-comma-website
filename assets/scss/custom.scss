@@ -31,6 +31,10 @@ $color-black: black;
 $color-blue: blue;
 $color-clay: #c2bfb5;
 
+/* Colors Dark */
+$color-bg-dark: #282a36;
+$color-current-dark: #44475a;
+
 /* Body */
 body {
   background-color: $color-white;
@@ -39,7 +43,7 @@ body {
 }
 
 body.dark {
-  background: $color-black;
+  background: $color-bg-dark;
   color: $color-white;
 }
 
@@ -190,7 +194,7 @@ table {
 }
 
 .dark .navbar {
-  background: $color-black;
+  background: $color-current-dark;
   border-bottom: $global-border;
   box-shadow: $global-box-shadow;
 }
