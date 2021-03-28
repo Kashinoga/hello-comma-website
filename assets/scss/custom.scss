@@ -115,6 +115,10 @@ hr {
 
 /* Buttons */
 
+.btn-primary:focus {
+  box-shadow: none;
+}
+
 .btn-light {
   border: none;
 }
@@ -134,6 +138,7 @@ hr {
   color: $color-black;
 }
 
+.dark .btn-primary:focus,
 .dark .btn-primary:hover {
   background: $color-dracula-btn-hover;
   color: $color-black !important;
@@ -910,4 +915,9 @@ p.powered-by {
 .dark .back-to-top:focus,
 .dark .back-to-top:hover {
   color: $color-dracula-pink !important;
+}
+
+/* Audio */
+audio {
+  margin-bottom: unset;
 }

@@ -1,23 +1,32 @@
 var shouldScroll = false;
 var audio = document.getElementById("audio-last-goodbye");
+var rollCreditsButton = document.getElementById("toggleScroll");
 
 function scroll() {
   if (!shouldScroll) {
-    // document.getElementById("toggleScroll").style.backgroundImage =
-    //   "url('../../images/icons8-pause-button-100.png')";
     audio.pause();
     return;
   }
+
   window.scrollBy(0, 1);
-  setTimeout(scroll, 40);
+  setTimeout(scroll, 30);
 }
 
-scroll();
-
-document.getElementById("toggleScroll").addEventListener("click", function () {
-  // this.style.backgroundImage =
-  //   "url('../../images/icons8-play-button-circled-100.png')";
+rollCreditsButton.addEventListener("click", function () {
   audio.play();
+
+  if (!shouldScroll) {
+    rollCreditsButton.textContent = "Pause the Credits";
+  } else {
+    rollCreditsButton.textContent = "Roll the Credits";
+  }
+
   shouldScroll = !shouldScroll;
   scroll();
+});
+
+audio.addEventListener("ended", function () {
+  shouldScroll = !shouldScroll;
+  scroll();
+  rollCreditsButton.textContent = "Roll the Credits";
 });

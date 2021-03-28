@@ -5,15 +5,15 @@ type: book
 
 ## Overview
 
-Curse of Strahd (2017) was a Dungeons & Dragons campaign presented by Anna Purna Arts (now Group Blue) and ran by [Andrew Nguyen](/authors/andrew-nguyen).
+Curse of Strahd (2017) was a Dungeons & Dragons campaign originally adapted and presented by Anna Purna Arts (now Group Blue) and ran by [Andrew Nguyen](/authors/andrew-nguyen).
 
-## Anna Purna Arts presents...
+This summary and epilogue has been adapted from its original form.
 
-## Curse of Strahd
+## What the Critics Say
 
-#### "God bless..." - Pope Benedict XVI
+### "God bless..." - Pope Benedict XVI
 
-#### "Champange!" - Literally everyone
+### "Champange!" - Literally everyone
 
 ## Synopsis
 
@@ -77,9 +77,7 @@ Strahd curses wildly as the portal closes behind New Barovia and the ship careen
 
 A few mere moments later, the storm lets up and the ship suddenly appears in calm and clear waters…
 
-<button type="button" class="btn btn-primary px-3 py-3" id="toggleScroll">Roll the Credits</button>
-
-<!-- {{< cta cta_text="Roll the Credits" cta_new_tab="false" id="toggleScroll" onclick="return false">}} -->
+<button type="button" class="btn btn-primary px-3 py-3 cos-btn" id="toggleScroll">Roll the Credits</button>
 
 {{< audio src="../last goodbye.mp3" id="last-goodbye">}}
 
@@ -106,83 +104,100 @@ Andrew Nguyen
 
 ## Players & Player Characters
 
-### A huge thank you...
+A huge thank you...
 
-#### I could not have done it without you all!
+I could not have done it without you all!
 
-## Taylor V.
+## The One Known Only as Jet
 
-The One Known Only as Jet
+### Played by
+
+Taylor V.
 
 ### Achievements
 
 Most Likely to Turn into a Tree
 
-## Chris B.
+## Jorrey Sanfeld
 
-Jorrey Sanfeld
+### Played by
+
+Chris B.
 
 ### Achievements
 
 - Most Likely To Have a Good Time, Regardless of the Current Situation
 - Found the Perfect Instrument: His Own Heart; Cured his Wife of over 50 years, Lorrey
 
-## John G.
+## Kellen Strive
 
-Kellen Strive
+### Played by
+
+John G.
 
 ### Achievements
 
 - Best Attendance Record
 
-## James P.
+## Kirk Tenebris
 
-Kirk Tenebris
+### Played by
 
-### Achievement
+James P.
+
+### Achievements
 
 - Founding Father of New Barovia
 - A Warlock Who Uses Something Other Than Just Eldritch Blast
 
-## Ève D.
+## Ophelia Morell
 
-Ophelia Morell
+### Played by
 
-### Achievement
+Ève D.
+
+### Achievements
 
 - Found a Job for Her Unseen Servant
-
 - Started a Successful Barrel Store
 
-## Chloe S.
+## Sir Poopsalot
 
-Sir Poopsalot
+### Played by
 
-### Achievement
+Chloe S.
+
+### Achievements
 
 - Shit on Strahd von Zarovich's Throne
 
-## Zaakary B.
+## The Holy Father Zaakarion
 
-- The Holy Father Zaakarion
+### Played by
 
-### Achievement
+Zaakary B.
+
+### Achievements
 
 - Stayed True To His Faith; Shunned Sinners
 
-## Sydney S.
+## Princess Bubblebutt
 
-Princess Bubblebutt
+### Played by
 
-### Achievement
+Sydney S.
+
+### Achievements
 
 - Won Reelection in Her Kingdom
 
-## Mandy E.
+## Doctor Rocket Science Golden Retriever
 
-Doctor Rocket Science Golden Retriever
+### Played by
 
-### Achievement
+Mandy E.
+
+### Achievements
 
 - Helped Further Rocket Science...
 
