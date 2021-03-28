@@ -5,11 +5,11 @@
 
 /* Global Variables */
 $global-border: 1px solid rgba(0, 0, 0, 0.1);
+$global-border-black: 1px solid black;
 $global-border-radius: 4px;
 
 $global-box-shadow: none;
 $global-box-shadow-visible: 0 1px 1px 0 rgba(50, 50, 50, 0.1);
-$global-box-shadow-colored: 0 1px 1px 0 #f5df4d;
 
 $global-opacity: 0.5;
 $global-padding: 1rem;
@@ -22,8 +22,8 @@ $color-two: rgba(0, 0, 0, 0.1);
 
 /* Colors Mono */
 $color-white: white;
-
 $color-black: black;
+$color-black-hover: rgba($color-black, 0.7);
 
 /* Colors Other */
 $color-blue: blue;
@@ -44,8 +44,10 @@ $color-dracula-red: #ff5555;
 $color-dracula-yellow: #f1fa8c;
 
 /* Colors Dracula Derived */
+$color-dracula-white-hover: rgba($color-dracula-white, 0.7);
 $color-dracula-muted: #4c5067;
 $color-dracula-a-hover: rgba(255, 121, 198, 0.7);
+$color-dracula-btn-hover: rgba(80, 250, 123, 0.8);
 $color-dracula-subtitle: rgba(255, 255, 255, 0.6);
 $global-border-dracula: 1px solid #bd93f9;
 $global-border-muted-dracula: 1px solid #4c5067;
@@ -63,14 +65,6 @@ body.dark {
   color: $color-dracula-white;
 }
 
-/* Breadcrumbs */
-@media (max-width: 768px) {
-  .breadcrumb {
-    padding-bottom: 0;
-    padding-top: $global-padding;
-  }
-}
-
 /* Text */
 h1,
 h2,
@@ -82,16 +76,12 @@ h6 {
 }
 
 hr {
-  background: $color-black;
+  background: $color-two;
   background-image: unset !important;
 }
 
 .dark hr {
-  background: $color-dracula-purple;
-}
-
-.home-section-bg {
-  background-color: $color-blue;
+  background: $color-dracula-muted;
 }
 
 .home-hero h1 {
@@ -107,11 +97,20 @@ hr {
 }
 
 .text-muted {
-  color: rgba(0, 0, 0, 0.75) !important;
+  color: $color-black !important;
+  transition-duration: $global-transition-duration;
+}
+
+.text-muted:hover {
+  color: $color-black-hover !important;
 }
 
 .dark .text-muted {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: $color-dracula-white !important;
+}
+
+.dark .text-muted:hover {
+  color: $color-dracula-white-hover !important;
 }
 
 /* Buttons */
@@ -121,6 +120,11 @@ hr {
 
 .wg-hero.dark .btn:hover {
   color: $color-blue !important;
+}
+
+.dark .btn-primary {
+  border: none;
+  border-radius: $global-border-radius;
 }
 
 /* Links */
@@ -143,6 +147,16 @@ a:hover {
   color: $color-dracula-a-hover !important;
 }
 
+.home-section.dark a {
+  background: $color-dracula-green;
+  color: $color-black;
+}
+
+.home-section.dark a:hover {
+  background: $color-dracula-btn-hover;
+  color: $color-black !important;
+}
+
 .anchorjs-link {
   color: $color-blue;
   font-weight: unset;
@@ -152,6 +166,11 @@ a:hover {
 .anchorjs-link:hover {
   color: $color-blue;
   text-decoration: underline;
+}
+
+/* CTAs */
+.cta-center .cta-group {
+  justify-content: center;
 }
 
 /* Forms */
@@ -250,14 +269,14 @@ table > tfoot > tr > td {
 
 .navbar {
   background: $color-white;
-  border-bottom: $global-border;
+  border-bottom: $global-border-black;
   box-shadow: $global-box-shadow;
   height: $global-page-margin-top;
 }
 
 .dark .navbar {
   background: $color-dracula-background;
-  border-bottom: $global-border-muted-dracula;
+  border-bottom: $global-border-black;
   box-shadow: $global-box-shadow;
 }
 
@@ -432,14 +451,21 @@ ul.nav-icons li.nav-item a.nav-link:hover {
   transition-duration: $global-transition-duration;
 }
 
-/* Breadcrumb */
+/* Breadcrumbs */
+@media (max-width: 768px) {
+  .breadcrumb {
+    padding-bottom: 0;
+    padding-top: $global-padding;
+  }
+}
+
 .breadcrumb-item a {
   color: $color-one !important;
   transition-duration: $global-transition-duration;
 }
 
 .dark .breadcrumb-item a {
-  color: $color-dracula-white !important;
+  color: $color-dracula-subtitle !important;
   transition-duration: $global-transition-duration;
 }
 
@@ -589,11 +615,11 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .sidebar-search-shortcut {
-  background: $color-white;
+  background: $color-black;
   border: $global-border;
   border-radius: $global-border-radius;
   box-shadow: $global-box-shadow;
-  color: $color-black;
+  color: $color-white;
   transition-duration: $global-transition-duration;
 }
 
@@ -603,7 +629,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .sidebar-search-shortcut:hover {
-  background: $color-black;
+  background: $color-black-hover;
   color: $color-white;
 }
 
@@ -619,13 +645,13 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 
 @media (min-width: 768px) {
   .docs-sidebar {
-    border-right: $global-border;
+    border-right: $global-border-black;
     height: calc(100vh - 50px);
     top: 50px;
   }
 
   .dark .docs-sidebar {
-    border-right: $global-border-muted-dracula;
+    border-right: $global-border-black;
     height: calc(100vh - 50px);
     top: 50px;
   }
@@ -837,7 +863,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .dark .docs .body-footer {
-  border-top: $global-border-dracula;
+  border-top: $global-border-muted-dracula;
   color: $color-dracula-subtitle;
 }
 

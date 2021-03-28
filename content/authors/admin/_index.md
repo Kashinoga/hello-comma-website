@@ -14,7 +14,7 @@ role: Student
 
 # Organizations/Affiliations
 organizations:
-  - name:
+  - name: Hello, Comma
     url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -22,8 +22,9 @@ bio: Hello.
 
 interests:
   - Archery
-  - Digital Art
-  - Tabletop and Video Role-Playing Games
+  - Digital art
+  - Personal software development
+  - Tabletop and video role-playing games
 
 education:
   courses:
@@ -57,3 +58,5 @@ email: "andrew.nguyen@hellocomma.org"
 user_groups:
   - []
 ---
+
+# Overview

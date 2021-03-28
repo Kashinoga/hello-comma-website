@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 type: book
-weight: 1
+weight: 2
 ---
 
 How to play the game.

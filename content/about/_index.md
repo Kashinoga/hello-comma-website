@@ -17,12 +17,12 @@ Hello, Comma was created by [Andrew Nguyen](/author/andrew-nguyen) in 2017, but 
 
 ## A Listed Short History
 
-| Name                             | Year | Guild Master              |
-| -------------------------------- | ---- | ------------------------- |
-| Ray of Gods                      | 2005 | ?                         |
-| Athena Rising                    | 2006 | Kodswallop and Xenafreak  |
-| Claymore, Timeless, Soul Eclipse | 2008 | VietSushi and fairytalesx |
-| Hello, Comma                     | 2017 | Andrew Nguyen             |
+| Name                             | Year | Guild Master                          |
+| -------------------------------- | ---- | ------------------------------------- |
+| Ray of Gods                      | 2005 | ?                                     |
+| Athena Rising                    | 2006 | Kodswallop and Xenafreak              |
+| Claymore, Timeless, Soul Eclipse | 2008 | VietSushi (Kashinoga) and fairytalesx |
+| Hello, Comma                     | 2017 | Andrew Nguyen                         |
 
 ## Credits
 
