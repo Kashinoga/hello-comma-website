@@ -114,17 +114,29 @@ hr {
 }
 
 /* Buttons */
+
+.btn-light {
+  border: none;
+}
+
 .wg-hero.dark .btn {
   color: $color-black;
 }
 
-.wg-hero.dark .btn:hover {
-  color: $color-blue !important;
-}
+// .wg-hero.dark .btn:hover {
+//   color: $color-blue !important;
+// }
 
 .dark .btn-primary {
+  background: $color-dracula-green;
   border: none;
   border-radius: $global-border-radius;
+  color: $color-black;
+}
+
+.dark .btn-primary:hover {
+  background: $color-dracula-btn-hover;
+  color: $color-black !important;
 }
 
 /* Links */

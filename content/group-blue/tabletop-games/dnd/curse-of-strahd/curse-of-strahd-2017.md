@@ -77,7 +77,11 @@ Strahd curses wildly as the portal closes behind New Barovia and the ship careen
 
 A few mere moments later, the storm lets up and the ship suddenly appears in calm and clear waters…
 
-{{< audio src="../last goodbye.mp3" >}}
+<button type="button" class="btn btn-primary px-3 py-3" id="toggleScroll">Roll the Credits</button>
+
+<!-- {{< cta cta_text="Roll the Credits" cta_new_tab="false" id="toggleScroll" onclick="return false">}} -->
+
+{{< audio src="../last goodbye.mp3" id="last-goodbye">}}
 
 ## Written by
 
