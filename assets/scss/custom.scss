@@ -131,10 +131,19 @@ hr {
 //   color: $color-blue !important;
 // }
 
-.dark .btn-primary {
-  background: $color-dracula-green;
+.btn-primary {
+  background: $color-blue;
   border: none;
   border-radius: $global-border-radius;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+  background: $color-blue-hover;
+}
+
+.dark .btn-primary {
+  background: $color-dracula-green;
   color: $color-black;
 }
 
