@@ -18,7 +18,7 @@ columns = "1"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  color = "#fff"
+  # color = "#44475a"
   
   # Background gradient.
   # gradient_start = "#4bb4e3"
@@ -32,11 +32,11 @@ columns = "1"
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = false
+  text_color_light = true
 
 [design.spacing]
   # top, right, bottom, left
-  padding = ["300px", "0", "300px", "0"]
+  padding = ["150px", "0", "150px", "0"]
 
 [advanced]
   css_class = "home-hero"

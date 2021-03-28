@@ -29,7 +29,7 @@ Hello, Comma was created by [Andrew Nguyen](/author/andrew-nguyen) in 2017, but 
 - Site by [Andrew Nguyen](/author/andrew-nguyen)
 - Built with [Hugo](https://gohugo.io/) and [Wowchemy](https://wowchemy.com/)
 - Avatars from images by [Ilya Kuvshinov](https://www.artstation.com/kuvshinov_ilya)
-- Icons by [Icons8](https://icons8.com/icons/pack/plasticine)
+- Dark theme colors from [Dracula](https://draculatheme.com/) by [Zeno Rocha](https://zenorocha.com/)
 
 ## Contributions
 
