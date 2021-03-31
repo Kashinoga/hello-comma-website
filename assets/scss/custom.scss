@@ -114,12 +114,12 @@ hr {
 }
 
 /* Code */
-.hljs-meta {
+.dark .hljs-meta {
   color: $color-dracula-white;
 }
 
-.hljs-comment,
-.hljs-quote {
+.dark .hljs-comment,
+.dark .hljs-quote {
   color: $color-dracula-comment;
 }
 
@@ -129,15 +129,15 @@ hr {
   color: $color-dracula-green;
 }
 
-.hljs-bullet,
-.hljs-doctag,
-.hljs-literal,
-.hljs-number,
-.hljs-tag .hljs-attr,
-.hljs-template-variable,
-.hljs-string,
-.hljs-symbol,
-.hljs-variable {
+.dark .hljs-bullet,
+.dark.hljs-doctag,
+.dark .hljs-literal,
+.dark .hljs-number,
+.dark .hljs-tag .hljs-attr,
+.dark .hljs-template-variable,
+.dark .hljs-string,
+.dark .hljs-symbol,
+.dark .hljs-variable {
   color: $color-dracula-white;
 }
 
