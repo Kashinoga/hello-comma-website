@@ -113,6 +113,34 @@ hr {
   color: $color-dracula-white-hover !important;
 }
 
+/* Code */
+.hljs-meta {
+  color: $color-dracula-white;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: $color-dracula-comment;
+}
+
+.dark pre,
+.dark code {
+  background: $color-two;
+  color: $color-dracula-green;
+}
+
+.hljs-bullet,
+.hljs-doctag,
+.hljs-literal,
+.hljs-number,
+.hljs-tag .hljs-attr,
+.hljs-template-variable,
+.hljs-string,
+.hljs-symbol,
+.hljs-variable {
+  color: $color-dracula-white;
+}
+
 /* Buttons */
 
 .btn-primary:focus {
