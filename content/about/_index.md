@@ -1,6 +1,7 @@
 ---
 title: About
 type: book
+weight: 1
 ---
 
 Boldly going where many have already gone before.

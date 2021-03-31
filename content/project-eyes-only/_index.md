@@ -17,25 +17,12 @@ Project Eyes Only is a tabletop roleplaying game by [Andrew Nguyen](/author/andr
 
 ## Goals
 
-1. Combat that does not drag on
-2. No distinction between combat and social encounters
-3. Let players play outside of sessions
+1. Fun to play
+2. Easy to pickup
+3. Combat that does not drag on
+4. No distinction between combat and social encounters
+5. Let players play outside of sessions
 
 ## Contributions
 
 If you are interested in contributing to this project, please contact [Andrew Nguyen](/author/andrew-nguyen).
-
-## Inspirations
-
-- Alita: Battle Angel
-- Arrival
-- Edge of Tomorrow
-- Horizon: Zero Dawn
-- Immortals Fenyx Rising
-- Lupin III
-- Mass Effect
-- Nier: Automata
-- RuneScape
-- Space Dandy
-- Star Trek
-- Yu-Gi-Oh! The Abridged Series

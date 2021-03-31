@@ -135,6 +135,7 @@ hr {
   background: $color-blue;
   border: none;
   border-radius: $global-border-radius;
+  color: $color-black !important;
 }
 
 .btn-primary:focus,
@@ -144,7 +145,7 @@ hr {
 
 .dark .btn-primary {
   background: $color-dracula-green;
-  color: $color-black;
+  color: $color-black !important;
 }
 
 .dark .btn-primary:focus,
@@ -161,7 +162,7 @@ a {
 }
 
 .dark a {
-  color: $color-dracula-pink;
+  color: $color-dracula-pink !important;
 }
 
 a:hover {
@@ -173,15 +174,15 @@ a:hover {
   color: $color-dracula-a-hover !important;
 }
 
-.home-section.dark a {
-  background: $color-dracula-green;
-  color: $color-black;
-}
+// .home-section.dark a {
+//   background: $color-dracula-green;
+//   color: $color-black;
+// }
 
-.home-section.dark a:hover {
-  background: $color-dracula-btn-hover;
-  color: $color-black !important;
-}
+// .home-section.dark a:hover {
+//   background: $color-dracula-btn-hover;
+//   color: $color-black !important;
+// }
 
 .anchorjs-link {
   color: $color-blue;
