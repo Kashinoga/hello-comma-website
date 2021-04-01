@@ -81,41 +81,6 @@ A few mere moments later, the storm lets up and the ship suddenly appears in cal
 
 {{< audio src="../last goodbye.mp3" id="last-goodbye">}}
 
-<script>
-var shouldScroll = false;
-var audio = document.getElementById("audio-last-goodbye");
-var rollCreditsButton = document.getElementById("toggleScroll");
-
-function scroll() {
-  if (!shouldScroll) {
-    audio.pause();
-    return;
-  }
-
-  window.scrollBy(0, 1);
-  setTimeout(scroll, 30);
-}
-
-rollCreditsButton.addEventListener("click", function () {
-  audio.play();
-
-  if (!shouldScroll) {
-    rollCreditsButton.textContent = "Pause the Credits";
-  } else {
-    rollCreditsButton.textContent = "Roll the Credits";
-  }
-
-  shouldScroll = !shouldScroll;
-  scroll();
-});
-
-audio.addEventListener("ended", function () {
-  shouldScroll = !shouldScroll;
-  scroll();
-  rollCreditsButton.textContent = "Roll the Credits";
-});
-</script>
-
 ## Written by
 
 Chris Perkins
@@ -247,3 +212,5 @@ Toby Fox
 ## Thanks for playing!
 
 See you next time...
+
+<script src="../cos-2017.js"></script>

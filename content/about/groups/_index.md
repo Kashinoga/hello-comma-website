@@ -31,11 +31,11 @@ Each group has a central focus and a set of interests, known as a topic.
 | 💜    | Violet  | Clubs         |
 | ✨    | Prism   | Nothing       |
 
-#### Group Chats
+### Group Chats
 
 Each group has a group chat. To join a group chat, please contact [Andrew Nguyen](/author/andrew-nguyen) or visit our [Discord](/invite/discord).
 
-#### Group Chat Apps
+### Chat Apps
 
 Our group chats are available on the following platforms.
 
@@ -62,7 +62,7 @@ Our Signal group chats are private and invite only.
 
 SMS is our backup communication channel.
 
-#### Group App Availability
+### App Availability
 
 | Group   | Discord                            | Facebook Messenger                        | Signal                        | SMS                             |
 | ------- | ---------------------------------- | ----------------------------------------- | ----------------------------- | ------------------------------- |
