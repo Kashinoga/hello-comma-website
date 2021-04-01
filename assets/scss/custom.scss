@@ -113,6 +113,34 @@ hr {
   color: $color-dracula-white-hover !important;
 }
 
+/* Code */
+.dark .hljs-meta {
+  color: $color-dracula-white;
+}
+
+.dark .hljs-comment,
+.dark .hljs-quote {
+  color: $color-dracula-comment;
+}
+
+.dark pre,
+.dark code {
+  background: $color-two;
+  color: $color-dracula-green;
+}
+
+.dark .hljs-bullet,
+.dark.hljs-doctag,
+.dark .hljs-literal,
+.dark .hljs-number,
+.dark .hljs-tag .hljs-attr,
+.dark .hljs-template-variable,
+.dark .hljs-string,
+.dark .hljs-symbol,
+.dark .hljs-variable {
+  color: $color-dracula-white;
+}
+
 /* Buttons */
 
 .btn-primary:focus {
@@ -135,6 +163,10 @@ hr {
   background: $color-blue;
   border: none;
   border-radius: $global-border-radius;
+  color: $color-white !important;
+}
+
+.dark .btn-primary {
   color: $color-black !important;
 }
 
