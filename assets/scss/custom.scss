@@ -163,6 +163,10 @@ hr {
   background: $color-blue;
   border: none;
   border-radius: $global-border-radius;
+  color: $color-white !important;
+}
+
+.dark .btn-primary {
   color: $color-black !important;
 }
 
