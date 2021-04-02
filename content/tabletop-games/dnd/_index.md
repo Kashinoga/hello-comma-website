@@ -1,6 +1,7 @@
 ---
 title: Dungeons & Dragons
 type: book
+weight: 2
 ---
 
 ## Overview
