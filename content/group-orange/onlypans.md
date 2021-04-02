@@ -3,6 +3,8 @@ title: OnlyPans
 type: book
 ---
 
-Cooking recipes, tips, and tricks.
+## Overview
+
+Cooking recipes, tips, and tricks. Pans not required.
 
 {{< cta cta_text="OnlyPans" cta_link="/onlypans" cta_new_tab="false" >}}

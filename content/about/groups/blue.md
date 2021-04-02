@@ -8,4 +8,6 @@ weight: 5
 
 Tabletop and video games.
 
-{{< cta cta_text="Group Blue" cta_link="/group-blue" cta_new_tab="false" >}}
+## Tabletop Games
+
+{{< cta cta_text="Tabletop Games" cta_link="/tabletop-games" cta_new_tab="false" >}}
