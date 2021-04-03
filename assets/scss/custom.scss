@@ -123,6 +123,12 @@ hr {
   color: $color-dracula-comment;
 }
 
+pre,
+code {
+  background: $color-two;
+  color: $color-blue;
+}
+
 .dark pre,
 .dark code {
   background: $color-two;
@@ -651,7 +657,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 
 .dark .docs-search .form-control {
   background: $color-dracula-background;
-  border: $global-border-dracula;
+  border: $global-border-muted-dracula;
   border-radius: $global-border-radius;
   color: $color-dracula-white;
 }
@@ -683,7 +689,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .dark .sidebar-search-shortcut {
-  background: $color-dracula-green;
+  background: $color-dracula-white;
   color: $color-black;
 }
 
@@ -693,7 +699,7 @@ ul.nav-icons li.nav-item a.nav-link:hover {
 }
 
 .dark .sidebar-search-shortcut:hover {
-  background: rgba($color-dracula-green, 0.8);
+  background: $color-dracula-white-hover;
   color: $color-black;
 }
 

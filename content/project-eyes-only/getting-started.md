@@ -38,23 +38,23 @@ Unless otherwise stated, the ordering of anything in this project follows: most 
 | World                 | The setting played in by the Group       |
 | Non-Player Characters | Characters controlled by the Game Master |
 
-### Decision Making Tool: Playing Cards
+### Playing Cards
 
-Each player generally has their own set of the tool and its attributes.
+Playing cards are the decision making tool. Each player generally has their own set of a standard deck of playing cards.
 
 | Designation   | Description                             |
 | ------------- | --------------------------------------- |
 | Playing cards | A standard 52-card deck                 |
 | Main Deck     | Cards not yet drawn                     |
-| Discard Pile  | Location for the cards discarded        |
-| Field         | Location for the cards played           |
-| Combo         | One or more cards of a particular order |
+| Discard Pile  | Location of the cards discarded         |
+| Field         | Location of the cards played            |
+| Combination   | One or more cards of a particular order |
 
 ## Basic Setup
 
 1. Designate one person as the Game Master
 2. In either order: the Game Master creates a World; the Players each create their own Player Characters
-3. The Group decides on the date and time for a Session
+3. The Group decides on the date and time for a session
 
 ## Basic Gameplay
 
@@ -67,6 +67,6 @@ Each player generally has their own set of the tool and its attributes.
 
 The Game Master has the ability to define and override rules.
 
-## General versus Specific
+## General vs. Specific
 
 Specific rules override general rules.
