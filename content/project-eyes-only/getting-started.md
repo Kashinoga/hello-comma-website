@@ -20,35 +20,16 @@ Unless otherwise stated, the ordering of anything in this project follows: most 
 
 ## Key Terms
 
-### Players
-
-| Term              | Description                                    |
-| ----------------- | ---------------------------------------------- |
-| Game Master       | The person running the game                    |
-| Players           | The persons who are not the Game Master        |
-| Player Characters | The characters played by the Players           |
-| Party             | The Players and their Player Characters        |
-| Group             | The Game Master and the Players                |
-| Session           | A single meeting of the Group to play the game |
-
-### Setting
-
-| Term                  | Description                              |
-| --------------------- | ---------------------------------------- |
-| World                 | The setting played in by the Group       |
-| Non-Player Characters | Characters controlled by the Game Master |
-
-### Playing Cards
-
-Playing cards are the decision making tool. Each player generally has their own set of a standard deck of playing cards.
-
-| Designation   | Description                             |
-| ------------- | --------------------------------------- |
-| Playing cards | A standard 52-card deck                 |
-| Main Deck     | Cards not yet drawn                     |
-| Discard Pile  | Location of the cards discarded         |
-| Field         | Location of the cards played            |
-| Combination   | One or more cards of a particular order |
+| Term                  | Description                                    |
+| --------------------- | ---------------------------------------------- |
+| Game Master           | The person running the game                    |
+| World                 | The setting played in by the Group             |
+| Non-Player Characters | Characters controlled by the Game Master       |
+| Players               | The persons who are not the Game Master        |
+| Player Characters     | The characters played by the Players           |
+| Party                 | The Players and their Player Characters        |
+| Group                 | The Game Master and the Players                |
+| Session               | A single meeting of the Group to play the game |
 
 ## Basic Setup
 
