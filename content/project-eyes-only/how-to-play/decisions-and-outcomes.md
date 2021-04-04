@@ -1,7 +1,7 @@
 ---
 title: Decisions and Outcomes
 type: book
-weight: 4
+weight: 5
 summary: How the game works.
 ---
 
