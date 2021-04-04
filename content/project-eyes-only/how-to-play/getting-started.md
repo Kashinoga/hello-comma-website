@@ -1,7 +1,8 @@
 ---
 title: Getting Started
 type: book
-weight: 2
+weight: 3
+summary: Things you will need to have and know before playing.
 ---
 
 How to play the game.

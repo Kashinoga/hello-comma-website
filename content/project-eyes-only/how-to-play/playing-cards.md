@@ -1,7 +1,8 @@
 ---
 title: Playing Cards
 type: book
-weight: 4
+weight: 5
+summary: The primary decision making tool.
 ---
 
 ## Using the Playing Cards
