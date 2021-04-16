@@ -5,4 +5,4 @@ type: book
 
 ## Overview
 
-Indoor and outdoor hobbies.
+Hobbies.
