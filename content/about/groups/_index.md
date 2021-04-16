@@ -23,7 +23,7 @@ Each group has a central focus and a set of interests, known as a topic.
 | ----- | ------- | ------------- |
 | 🌈    | Rainbow | Everything    |
 | ❤️    | Red     | Entertainment |
-| 🧡    | Orange  | Recreation    |
+| 🧡    | Orange  | Hobbies       |
 | 💛    | Yellow  | Safety        |
 | 💚    | Green   | Local         |
 | 💙    | Blue    | Gaming        |
@@ -39,20 +39,20 @@ Each group has a group chat. To join a group chat, please contact [Andrew Nguyen
 
 Our group chats are available on the following platforms.
 
-| Icon                                      | Name               | Priority | Status     |
-| ----------------------------------------- | ------------------ | -------- | ---------- |
-| <i class="fab fa-discord"></i>            | Discord            | Highest  | Active     |
-| <i class="fab fa-facebook-messenger"></i> | Facebook Messenger | High     | Deprecated |
-| <i class="fas fa-signal"></i>             | Signal             | Medium   | Active     |
-| <i class="fas fa-sms"></i>                | SMS                | Low      | Inactive   |
+| Icon                                      | Name               | Priority | Status        |
+| ----------------------------------------- | ------------------ | -------- | ------------- |
+| <i class="fab fa-discord"></i>            | Discord            | Highest  | Active        |
+| <i class="fab fa-facebook-messenger"></i> | Facebook Messenger | High     | Transitioning |
+| <i class="fas fa-signal"></i>             | Signal             | Medium   | Active        |
+| <i class="fas fa-sms"></i>                | SMS                | Low      | Inactive      |
 
 #### Discord
 
-Our primary app, Discord -- open to everyone -- provides private and public chats where no real names are required. You can use the username of your dreams! Like "Paul Rudd Budd" or "ChessmasterHarmon48".
+Our primary app, Discord -- open to everyone -- provides private and public chats where no real names are required. You can use the username of your dreams! Like "Paul Rudd Budd" or "ChessmasterHarmon48". To join, please view our [Discord invitation](/invite/discord).
 
 #### Facebook Messenger
 
-We have deprecated Messenger and are working to move our group chats over to Discord and Signal.
+We have deprecated Messenger and are working to move our group chats over to Discord and Signal. Messenger will serve as a backup communication channel once this transition is complete.
 
 #### Signal
 
