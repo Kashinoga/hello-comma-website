@@ -149,6 +149,7 @@ code {
 
 /* Buttons */
 
+a.badge-light:focus,
 .btn-primary:focus {
   box-shadow: none;
 }
@@ -197,6 +198,7 @@ code {
   color: $color-white !important;
 }
 
+.badge-light:focus,
 .badge-light:hover {
   background: $color-blue-hover !important;
   color: $color-white !important;
@@ -207,6 +209,7 @@ code {
   color: $color-black !important;
 }
 
+.dark .badge-light:focus,
 .dark .badge-light:hover {
   background: $color-dracula-btn-hover !important;
   color: $color-black !important;
