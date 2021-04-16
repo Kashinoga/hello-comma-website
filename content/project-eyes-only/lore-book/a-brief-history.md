@@ -1,7 +1,7 @@
 ---
 title: A Brief Human History
 type: book
-weight: 100
+weight: 300
 summary: A summary of humans in Eyes Only.
 ---
 
