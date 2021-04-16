@@ -18,7 +18,7 @@ The following describes what information each group chat channel receives.
 
 | Chat                                      | App                | Level (down to) | Priority (low, medium, high) |
 | ----------------------------------------- | ------------------ | --------------- | ---------------------------- |
-| <i class="fab fa-discord"></i>            | Discord            | Emergency       | Highest                      |
-| <i class="fab fa-facebook-messenger"></i> | Facebook Messenger | Warning         | Medium (Deprecated)          |
-| <i class="fas fa-signal"></i>             | Signal             | Emergency       | High                         |
-| <i class="fas fa-sms"></i>                | SMS                | Inactive        | Inactive                     |
+| <i class="fab fa-discord"></i>            | Discord            | Info            | High                         |
+| <i class="fab fa-facebook-messenger"></i> | Facebook Messenger | Warning         | Medium                       |
+| <i class="fas fa-signal"></i>             | Signal             | Warning         | High (Backup)                |
+| <i class="fas fa-sms"></i>                | SMS                | Emergency       | Low                          |

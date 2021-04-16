@@ -20,6 +20,8 @@ summary: Moving our group chats over to Discord.
 
 - Discord
   - Join our server [here](/invite/discord)
+- Emergency and warning safety alerts will continue to be posted to all apps
+  - View this distinction [here](/group-yellow/communications/)
 
 ## Why
 

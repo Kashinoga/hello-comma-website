@@ -39,12 +39,12 @@ Each group has a group chat. To join a group chat, please contact [Andrew Nguyen
 
 Our group chats are available on the following platforms.
 
-| Icon                                      | Name               | Priority | Status        |
-| ----------------------------------------- | ------------------ | -------- | ------------- |
-| <i class="fab fa-discord"></i>            | Discord            | Highest  | Active        |
-| <i class="fab fa-facebook-messenger"></i> | Facebook Messenger | High     | Transitioning |
-| <i class="fas fa-signal"></i>             | Signal             | Medium   | Active        |
-| <i class="fas fa-sms"></i>                | SMS                | Low      | Inactive      |
+| Icon                                      | Name               |
+| ----------------------------------------- | ------------------ |
+| <i class="fab fa-discord"></i>            | Discord            |
+| <i class="fab fa-facebook-messenger"></i> | Facebook Messenger |
+| <i class="fas fa-signal"></i>             | Signal             |
+| <i class="fas fa-sms"></i>                | SMS                |
 
 #### Discord
 
@@ -62,7 +62,7 @@ Our Signal group chats are private and invite only.
 
 SMS is our backup communication channel.
 
-### App Availability
+### Group Availability
 
 | Group   | Discord                            | Facebook Messenger                        | Signal                        | SMS                             |
 | ------- | ---------------------------------- | ----------------------------------------- | ----------------------------- | ------------------------------- |
