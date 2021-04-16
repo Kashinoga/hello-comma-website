@@ -151,7 +151,13 @@ code {
 
 a.badge-light:focus,
 .btn-primary:focus {
-  box-shadow: none;
+  border: none;
+  box-shadow: 0 0 0 0.1rem black;
+}
+
+.dark a.badge-light:focus,
+.dark .btn-primary:focus {
+  box-shadow: 0 0 0 0.1rem $color-dracula-white;
 }
 
 .btn-light {
