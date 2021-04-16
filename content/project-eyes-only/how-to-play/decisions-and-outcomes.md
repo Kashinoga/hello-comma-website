@@ -3,6 +3,7 @@ title: Decisions and Outcomes
 type: book
 weight: 5
 summary: How the game works.
+draft: true
 ---
 
 ## Decisions

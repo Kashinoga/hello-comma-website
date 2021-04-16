@@ -3,6 +3,7 @@ title: Playing Cards
 type: book
 weight: 6
 summary: The primary decision making tool.
+draft: true
 ---
 
 ## Using the Playing Cards

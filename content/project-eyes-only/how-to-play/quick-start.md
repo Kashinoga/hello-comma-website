@@ -2,11 +2,12 @@
 title: Quick Start
 type: book
 weight: 3
+summary: If you are an experienced role-playing game player, use this guide to quickly get up to speed on how to play.
 ---
 
 ## Overview
 
-If you are an experienced role-playing game player, use this guide to quickly get up to speed on how to play Eyes Only.
+If you are an experienced role-playing game player, use this guide to quickly get up to speed on how to play.
 
 ## Requirements
 
