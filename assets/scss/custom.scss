@@ -192,6 +192,26 @@ code {
   color: $color-black !important;
 }
 
+.badge-light {
+  background: $color-blue;
+  color: $color-white !important;
+}
+
+.badge-light:hover {
+  background: $color-blue-hover !important;
+  color: $color-white !important;
+}
+
+.dark .badge-light {
+  background: $color-dracula-green;
+  color: $color-black !important;
+}
+
+.dark .badge-light:hover {
+  background: $color-dracula-btn-hover !important;
+  color: $color-black !important;
+}
+
 /* Links */
 
 a {

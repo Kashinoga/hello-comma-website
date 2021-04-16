@@ -1,6 +1,7 @@
 ---
 title: Facebook Messenger Transition
 summary: Moving our group chats over to Discord.
+tags: ["hello comma", "announcements"]
 ---
 
 ## Who
