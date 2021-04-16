@@ -9,14 +9,19 @@ url = "/"
 weight = 1
 
 [[main]]
+name = "Bulletin Board"
+url = "/bb"
+weight = 2
+
+[[main]]
 name = "Knowledge Base"
 url = "/kb"
-weight = 2
+weight = 3
 
 [[main]]
 name = "Project Eyes Only"
 url = "/project-eyes-only"
-weight = 3
+weight = 4
 
 [[main]]
 name = "About"
